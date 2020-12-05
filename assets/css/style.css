@@ -7,7 +7,6 @@
   font-family: Gilroy ExtraBold;
   src: url(../fonts/Gilroy-ExtraBold.otf);
 }
-
 .nav-link {
   font-family: Roboto;
   font-weight: 500;
@@ -23,7 +22,13 @@
   color: white !important;
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
+  font-size: 0.75em;
   border-radius: 21px;
   padding-left: 30px !important;
   padding-right: 30px !important;
+  letter-spacing: 0.67px;
+  text-transform: uppercase;
+  text-align: center;
 }
+
+/* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
