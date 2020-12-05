@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: Gilroy Light;
+  src: url(../fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: Gilroy ExtraBold;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #02014f;
+}
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: initial;
+  font-weight: bold;
+}
+.learn-more {
+  color: white !important;
+  background-color: #5cc9ca;
+  font-family: "Gilroy Light";
+  border-radius: 21px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
