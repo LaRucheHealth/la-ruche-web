@@ -64,4 +64,55 @@
   text-align: left;
   vertical-align: top;
 }
+.icons-head {
+  font-family: "Gilroy ExtraBold";
+  font-size: 20px;
+  letter-spacing: 0.13px;
+  color: #02014f;
+  vertical-align: middle;
+}
+.icons-text {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.11;
+  color: #02014f;
+  vertical-align: top;
+}
+.circle {
+  background-color: #5cc9ca !important;
+  opacity: 20%;
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.products {
+  font-family: "Gilroy Light";
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #02014f;
+  text-align: center;
+  vertical-align: middle;
+}
+.product-name {
+  font-family: "Gilroy ExtraBold";
+  font-size: 30px;
+  letter-spacing: 0.2;
+  color: #02014f;
+  text-align: left;
+  vertical-align: middle;
+}
+.product-text {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.11;
+  color: #02014f;
+  text-align: left;
+  vertical-align: top;
+}
+.link {
+  text-decoration: underline;
+}
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
