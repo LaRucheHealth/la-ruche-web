@@ -11,7 +11,8 @@
   font-family: Roboto;
   font-weight: 500;
   font-size: 1rem;
-  color: #02014f;
+  color: #02014f !important;
+  text-align: center;
 }
 .navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
@@ -30,5 +31,37 @@
   text-transform: uppercase;
   text-align: center;
 }
-
+.main-learn {
+  color: white;
+  background-color: #200093;
+  font-family: "Gilroy Light";
+  font-size: 16px;
+  letter-spacing: 0.888889;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+.section {
+  margin-top: 131px;
+}
+.title {
+  color: #02014f;
+  letter-spacing: 0.4px;
+  font-size: 60px;
+  font-family: "Gilroy ExtraBold";
+  text-align: left;
+  vertical-align: middle;
+}
+.par {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 18px;
+  color: #02014f;
+  text-align: left;
+  vertical-align: top;
+}
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
