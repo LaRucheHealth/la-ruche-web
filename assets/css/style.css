@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @font-face {
   font-family: Gilroy Light;
   src: url(../fonts/Gilroy-Light.otf);
@@ -114,5 +115,54 @@
 }
 .link {
   text-decoration: underline;
+}
+.dark-blue {
+  background-color: #02014f;
+}
+.contact {
+  color: #5cc9ca;
+}
+.contact-head {
+  font-family: "Gilroy Light";
+  font-size: 20px;
+  letter-spacing: 0.13;
+  color: white;
+}
+.contact-text {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.11;
+  color: white;
+}
+.contact-details {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5cc9ca;
+  text-align: left;
+  vertical-align: top;
+}
+.phone-icon {
+  transform: rotateY(180deg);
+}
+.social-links {
+  color: #02014f;
+}
+.footer-heading {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #02014f;
+  font-size: 14;
+}
+.footer-links {
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #02014f !important;
+  opacity: 60%;
+  text-align: left;
+  padding-bottom: 15px !important;
 }
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
