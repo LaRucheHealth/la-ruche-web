@@ -177,4 +177,12 @@ footer.page-footer .footer-copyright {
   padding-bottom: 15px !important;
   display: inline;
 }
+.our-story-image {
+  max-height:500px;
+
+}
+.their-work {
+  max-height: 400px;
+}
+
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
