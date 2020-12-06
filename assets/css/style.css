@@ -10,7 +10,7 @@
 }
 .nav-link {
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
   color: #02014f !important;
   text-align: center;
@@ -18,7 +18,7 @@
 .navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: initial;
-  font-weight: bold;
+  font-weight: 500;
 }
 .learn-more {
   color: white !important;
