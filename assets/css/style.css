@@ -184,5 +184,49 @@ footer.page-footer .footer-copyright {
 .their-work {
   max-height: 400px;
 }
+.progressbar li, .progressbar3 li {
+  list-style-type: none;
+  width: 25%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.progressbar li:before, .progressbar3 li:before {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: #5cc9ca;
+}
+.progressbar li:after, .progressbar3 li:after {
+  width: 100%;
+  height: 1px;
+  content: '';
+  position: absolute;
+  background-color: #5cc9ca;
+  top: 8px;
+  left: -50%;
+  z-index: - 1;
+}
+.progressbar li:first-child:after, .progressbar3 li:first-child:after {
+  content: none;
+}
+.progressbar li.done:before, .progressbar3 li.done:before {
+  content: "";
+}
+.progress-title {
+  font-family: "Gilroy ExtraBold";
+  color: #5cc9ca;
+  font-size:24px;
+  line-height:1;
+}
+.progress-text {
+  font-family:Roboto;
+  font-weight:300;
+  font-size: 16px;
+  color: #02014f;
+  text-align:center;
 
+}
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */
