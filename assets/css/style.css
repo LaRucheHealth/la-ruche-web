@@ -122,6 +122,13 @@
   vertical-align: top;
 }
 .link {
+  color: #5cc9ca;
+  font-family: Roboto;
+  font-weight:300;
+  text-decoration: underline;
+}
+.link:hover {
+  color:#5cc9ca;
   text-decoration: underline;
 }
 .dark-blue {
