@@ -46,6 +46,10 @@
   text-align: center;
   vertical-align: top;
 }
+.main-learn:hover {
+  color:white;
+  text-decoration: underline;
+}
 .section {
   margin-top: 131px;
 }
