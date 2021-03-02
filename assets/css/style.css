@@ -302,24 +302,22 @@ transition:all .2s ease-in-out;
 padding:10px;
 }
 
-.hovereffect a.info {
+.hovereffect p {
 text-decoration:none;
+font-size: medium;
 display:inline-block;
-text-transform:uppercase;
 color:#fff;
-border:1px solid #fff;
 background-color:transparent;
 opacity:0;
 filter:alpha(opacity=0);
 -webkit-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out;
-margin:50px 0 0;
-padding:7px 14px;
+}
+.hovereffect i {
+font-size: 40px;
+color:#fff;
 }
 
-.hovereffect a.info:hover {
-box-shadow:0 0 5px #fff;
-}
 
 
 .hovereffect:hover .overlay {
@@ -327,7 +325,7 @@ opacity:1;
 filter:alpha(opacity=100);
 }
 
-.hovereffect:hover h2,.hovereffect:hover a.info {
+.hovereffect:hover h2,.hovereffect:hover p {
 opacity:1;
 filter:alpha(opacity=100);
 -ms-transform:translatey(0);
@@ -335,17 +333,6 @@ filter:alpha(opacity=100);
 transform:translatey(0);
 }
 
-.hovereffect:hover a.info {
--webkit-transition-delay:.2s;
-transition-delay:.2s;
-}
-.dis
-{
-    display: none;
-    
-}
-.vis
-{
-    visibility: hidden;
-}
+
+
 /* MEDIA QUERY AT 992PX TO ADD BIGGER SPACING IN NAVBAR */

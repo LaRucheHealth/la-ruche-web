@@ -1,132 +1,269 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>The Travelling Dog Trainer</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-		integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <!-- Custom CSS styling -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>La Ruche</title>
+  </head>
 
-<body>
-	<header>
-       <!-- Navbar -->
-       <!-- Bootstrap custom navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<a class="navbar-brand" id="logo" href="index.html">Travelling <br>Trainer</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+    <div class="container">
+      <!--Navbar -->
+      <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0">
+        <a class="navbar-brand" href="index.html"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="30" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link" href="index.html">Home</a>
-						<a class="nav-item nav-link active" href="about.html">About</a>
-						<a class="nav-item nav-link" href="services.html">Services</a>
-						<a class="nav-item nav-link" href="contact.html">Contact</a>
-					</div>
-				</div>
-		</nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link px-4" href="index.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-4" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="features.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 learn-more nav-learn" href="#">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+      <div class="section">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5 my-4">
+            <h1 class="mb-4">Our Story</h1>
+            <p class="mb-4">
+              The story of La Ruche was set in motion some 40 years ago when Lorna Kingston, later followed by her younger sister Shirley Assandey, relocated to the remote village of Becedi, in the South of Cote d'Ivoire to support the care of at-risk pre/postnatal patients.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-7 my-4 d-flex justify-content-center">
+            <img class="img-fluid our-story-image" alt="our story - shirley" src="assets/imgs/ourstory-main.png" />
+          </div>
+        </div>
+      </div>
 
-		<div class="About-Img">
-         <!-- Main image -->
-			<img src="assets/images/aboutimg.jpg" class="img-fluid" alt="Landing Image"></div>
-			<section id="About-Me">
-				<h1 class="title abouttitle">About the Travelling Dog Trainer</h1>
-				<hr class="divider">
-<!-- Bootstrap Grid function to create image and about text on alternating sides -->
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6">
-							<img src="assets/images/leftside.jpg" class="img-fluid sideimg" alt="Landing Image">
-                            </div>
+      <div class="section">
+        <h3 class="products my-5">Their Work</h3>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 product-about">
+            <h4>Reduced infant mortality with preventative care</h4>
+            <p>
+              In 1987, half of all deaths were children under the age of five. Lorna and Shirley led a Maternal Health Care (MHC) centre that contributed significantly to the betterment of these conditions by transferring knowledge of effective healthcare education and delivery.
 
-							<div class="col-sm-6">
-								<p class="about-me">Unlike other professions, dog training is unregulated. When looking
-									for
-									an expert to entrust with your dogs’ needs, it is important to research both their
-									skills and knowledge. With the myriad of different organisations and the plethora of
-									courses to become a dog trainer, choosing the right person can be a minefield for
-									the
-									pet owner. When working particularly with dogs who have an aggressive nature, those
-									calling themselves “Behaviourists” should have a relevant degree in Animal
-									Behaviour.
-									Animal Behaviour and learning theory is a science. Punitive and aversion training
-									methods, using fear and force, will exacerbate problems. Claire's aim with the
-									Travelling Dog Trainer is to help owners build a relationship with their dog based
-									on
-									trust. She can teach you the skills and give you an understanding of how dogs learn
-									and
-									what motivates your pooches behaviour.</p>
-							</div>
-						</div>
-					</div>
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 d-flex justify-content-center">
+            <img class="img-fluid their-work" alt="login page mockup" src="assets/imgs/infant-mortality.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 d-none d-md-block d-flex justify-content-center">
+            <img class="img-fluid their-work" alt="login page mockup" src="assets/imgs/yellow-fever.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 prouduct-about">
+            <h4>Fought measles, yellow fever and poloimyelitis</h4>
+            <p >
+              From the 80’s to the early 2000s, both ladies and their team of talented, resourceful Ivorian staff collectively led the execution of immunization programs against poliomyelitis, diphtheria, tetanus, pertussis, tuberculosis, yellow fever, and measles with considerable short and long term success.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 d-block d-md-none d-flex justify-content-center">
+            <img class="img-fluid their-work" alt="login page mockup" src="assets/imgs/yellow-fever.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 product-about">
+            <h4>Developed preparedness against outbreaks</h4>
+            <p>
+              Health education, immunization programs and improvements in clinical processes and sanitary standards were all building blocks installed under the leadership of Lorna and Shirley. These strengthened the country’s preparedness and ability to react to outbreaks such as Ebola in 2014 and most recently, COVID919.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5 d-flex justify-content-center">
+            <img class="img-fluid their-work" alt="login page mockup" src="assets/imgs/prepared-outbreaks.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h3 class="products my-5">Our Mission</h3>
+        <div class="row">
+          <div class="col-12 d-none d-md-block mt-5 offset-1">
+            <ul class="progressbar">
+              <li class="done">
+                <h6 class="progress-title">What</h6>
+                <p class="progress-text">We provide digital <br>healthcare solutions<br>for medical practices.</p>
+              </li>
+              <li class="done">
+                <h6 class="progress-title">How</h6>
+                <p class="progress-text">Our core values are <br>to be accessible to all,<br> to simplify, to automate <br>& enhance, to <br>save lives.</p>
+              </li>
+              <li class="done">
+                <h6 class="progress-title">Why</h6>
+                <p class="progress-text">To support ALL practitioners <br>in their delivery of care,<br> at a micro and<br> macro level.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
+            <div class="circle text-center"><img class="alignment" src="assets/imgs/lightbulb.svg"></div>
+            <h5 class="my-3 text-center">Intuitive</h5>
+            <p class="text-center icons-text">
+              Designed to deliver value instantly with minimal learning effort
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="circle text-center"><img class="alignment" src="assets/imgs/together.svg"></div>
+            <h5 class="my-3 text-center">Equitable</h5>
+            <p class="text-center icons-text">
+              No cost to underfunded remote clinics for whom such tools are otherwise unattainable
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="circle text-center"><img class="alignment" src="assets/imgs/analysis.svg"></div>
+            <h5 class="my-3 text-center">Interpretive</h5>
+            <p class="text-center icons-text">
+              Transforming key data points into visual insights to enhance population health monitoring and decision making
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="circle text-center"><img class="alignment" src="assets/imgs/equality.svg"></div>
+            <h5 class="my-3 text-center">Inclusive</h5>
+            <p class="text-center icons-text">
+              Telemedicine tools to connect remote regions that are otherwise cut off from the healthcare network
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="circle text-center"><img class="alignment" src="assets/imgs/alltogether.svg"></div>
+            <h5 class="my-3 text-center">Empowering</h5>
+            <p class="text-center icons-text">
+              Patient portal interface to boost patient engagement, provide education and access to other key healthcare content and services
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h3 class="products my-5">Our Team</h3>
+        <p class="par mb-4 text-center">The La Ruche group is compromised of industry professionals with over 35 years of experience collectively, working together to critically review key socio-economic problems in underdeveloped regions. La Ruche (EMR solution) is a by-product of their core interest and research activities in the healthcare space. <br>In addition, the team has tapped into its growing network of key advisors that offer a vast array of experience in software development, business development and medical expertise in both leading and emerging markets. </p>
+        <div class="row mt-5">
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="circle"></div>
+            <h5 class="my-3 text-center">Technology</h5>
+            <p class="text-center icons-text">
+              As the founder with a technology background and an emotional connection to healthcare and social change, Rory Assandey (30) leads development & design-based activities.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="circle"></div>
+            <h5 class="my-3 text-center">Finance</h5>
+            <p class="text-center icons-text">
+              Olaoluwa Obiliana (28) has a background in a financial accounting and auditing. He leads all activities related to budgeting, financial projections, accounting and tax.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="circle"></div>
+            <h5 class="my-3 text-center">Healthcare</h5>
+            <p class="text-center icons-text">
+              In folklore, a ghost is the soul or spirit of a dead person or animal that can appear to the living. In ghostlore, descriptions of ghosts vary widely from an invisible presence to translucent or barely visible wispy shapes, to realistic, lifelike forms.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="circle"></div>
+            <h5 class="my-3 text-center">Communications</h5>
+            <p class="text-center icons-text">
+              Moustapha Kone (39) has a background in marketing and more recently data centre engineering. Besides an aptitude for technology, Moustapaha uses a strong professional and personal network to establish relationships and opportunites.
+            </p>
+          </div>
+        </div>
+      </div>
 
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6">
-								<p class="about-me">Established in 2018, the idea came to Claire whilst travelling
-									across the Wild Atlantic Way with her collie puppy, Cass, who now is her trusty
-									sidekick. After realising the need for dog trainers in the counties outside of
-									Dublin. Claire held her first class in Buncrana, Co.Donegal only a few days later on
-									the 20th June 2018.</p>
-
-								<p class="about-me">Claire is both a behaviourist and dog trainer. Claire grew up with a
-									love of all
-									animals. After leaving school Claire attended University College Dublin to study
-									Zoology. Following her honours degree she was accepted into Queens University
-									Belfast and graduated with a Masters in Animal Welfare and Behaviour.</p>
-
-								<p class="about-me">Throughout her studies, Claire worked for the Dublin SPCA. Claire
-									left to pursue her
-									love of dog behaviour and training incorporated with the passion for travel, and so
-									The Travelling Trainer was created.</p>
-							</div>
-
-							<div class="col-sm-6">
-								<img src="assets/images/rightside.jpg" class="img-fluid sideimg" alt="Landing Image">
-							</div>
-							</div>
-						</div>
-
-
-
-			</section>
-<!-- Qualifications Section using a list spread over two columns -->
-			<section class="qualifications">
-				<h3 class="heading text-center">Qualifications</h3>
-				<ul class=cols>
-					<li class=qualification>MSc Animal Welfare & Behaviour</li>
-					<li class=qualification>BSc (Hons) Zoology UCD</li>
-					<li class=qualification>Canine Behaviour & Training Technician (CBTT)</li>
-					<li class=qualification>Canine First Responder</li>
-					<li class=qualification>Canine Behaviour & Dog Trainer Advanced Diploma</li>
-					<li class=qualification>Advanced Diploma in Tellington Touch (T-Touch)</li>
-				</ul>
-			</section>
-
-	</header>
-
-	<footer class="site-footer">
-		<div>
-			<div class="footer">
-            <!-- Footer -->
-				<div class="icons">
-					<a href="https://www.facebook.com" target="_blank"><i class="Socials fab fa-facebook"></i></a>
-					<a href="https://www.instagram.com" target="_blank"><i class="Socials fab fa-instagram"></i></a>
-					<a href="https://www.twitter.com" target="_blank"><i class="Socials fab fa-twitter"></i></a>
-					<a href="assets/docs/policy.pdf" target="_blank" class="policy">Privacy Policy</a>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
+    </div>
+    <div class="section">
+      <!-- Footer -->
+      <footer class="page-footer font-small py-5 dark-blue">
+        <p class="text-center contact-head">Contact us</p>
+        <p class="text-center contact-text">
+          Want to partner with us? Get in touch!
+        </p>
+        <p class="contact-details text-center">
+          <i class="ml-3 mr-2 fas fa-envelope"></i>info@laruche.health
+        </p>
+      </footer>
+      <!-- Footer -->
+      <!-- Footer -->
+      <footer class="page-footer font-small white pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mt-md-0 mt-3 ml-5">
+              <img alt="Full size logo footer" src="assets/imgs/full-logo.png" width="130" />
+              <!-- <p class="social-links mt-5">
+                <i class="fab fa-twitter ml-4 mr-2"></i>
+                <i class="fab fa-facebook-f mx-2"></i>
+                <i class="fab fa-instagram mx-2"></i>
+              </p> -->
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3" />
+            <div class="col-md-2 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Product</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="footer-links" href="features.html">Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">About Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="footer-links" href="about.html">Our Team</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="footer-links mt-2">info@laruche.health</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center pt-3 pb-3">
+          <hr />
+          <p class="tnc text-left pr-5">Terms & Conditions</p>
+          <p class="tnc text-right pl-5">©2021 | All right reserved</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer -->
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  </body>
 
 </html>
