@@ -1,13 +1,9 @@
-function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/8996/',
-        type:'post',
-        data:$("#myForm").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-}
+ const scriptURL = 'https://script.google.com/macros/s/AKfycbyP-td9x4t92On26bY97-Pqibj3QYm1CUIGefchYVJwLkdAgGmZYHB0enygbnwWD0WW/exec'
+            const form = document.forms['google-sheet']
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+
