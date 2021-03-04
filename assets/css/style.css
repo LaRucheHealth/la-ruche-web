@@ -328,3 +328,8 @@ footer.page-footer .footer-copyright {
 .form-control:hover {
 font-family:Roboto;
 }
+.after-submit
+{
+    display: none;
+    visibility: hidden;
+}
