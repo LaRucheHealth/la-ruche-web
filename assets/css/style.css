@@ -328,8 +328,17 @@ footer.page-footer .footer-copyright {
 .form-control:hover {
 font-family:Roboto;
 }
+
 .after-submit
 {
     display: none;
     visibility: hidden;
+}
+
+.thanks_msg
+{
+    font-family: Roboto;
+    font-weight: 400;
+    color: #02014f !important;
+    text-align: center;
 }
