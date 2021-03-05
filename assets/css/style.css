@@ -260,6 +260,10 @@ footer.page-footer .footer-copyright {
     height:70%;
 }
 /* Teams page */
+.team-name
+{
+    font-size: 29px;
+}
 .profile {
  
   border-radius: 50%;
