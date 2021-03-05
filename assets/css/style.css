@@ -155,6 +155,7 @@ p{
 }
 .social-links {
   color: #02014f;
+  font-size: 20px;
 }
 .footer-heading {
   font-family: Roboto;
@@ -290,18 +291,17 @@ footer.page-footer .footer-copyright {
   color: #02014f;
   vertical-align: middle;
 }
-.team-social
-{
-    font-size: 20px;
-}
+
 .contact-email
 {
-    color: #5cc9ca;
+    color: #02014f;
+    font-weight: 700;
     font-family:Roboto;
 }
 .contact-email:hover
 {
-    color: #5cc9ca;
+    color: #02014f;
+    font-weight: 700;
     font-family:Roboto;
      text-decoration: underline;
 }
@@ -341,4 +341,19 @@ font-family:Roboto;
     font-weight: 400;
     color: #02014f !important;
     text-align: center;
+}
+.social-links-div
+{
+    margin-left: 3rem;
+}
+.pic-details
+{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-links-div
+{
+    margin-left: 0rem;
+}
 }
