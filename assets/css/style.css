@@ -16,6 +16,14 @@ h1 {
   text-align: left;
   vertical-align: middle;
 }
+h2 {
+  color: #02014f;
+  letter-spacing: 0.4px;
+  font-size: 50px;
+  font-family: "Gilroy ExtraBold";
+  text-align: left;
+  vertical-align: middle;
+}
 h3 {
   font-family: "Gilroy Light";
   font-size: 40px;
@@ -188,6 +196,7 @@ footer.page-footer .footer-copyright {
 }
 .our-story-image {
   max-height:500px;
+  border-radius: 10px;
 
 }
 .their-work {
@@ -359,6 +368,10 @@ font-family:Roboto;
 .EMR-Content
 {
     font-size: 16px;
+}
+.para
+{
+    border-radius: 10px;
 }
 @media only screen and (max-width: 767px) {
   .social-links-div
