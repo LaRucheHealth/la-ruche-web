@@ -369,9 +369,12 @@ font-family:Roboto;
 {
     font-size: 16px;
 }
-.para
+.statement
 {
-    border-radius: 10px;
+    background-color: #02014f;
+    border-radius: 0 10px 0 0; 
+    color:white!important;
+    margin-top: 5.5rem;
 }
 @media only screen and (max-width: 767px) {
   .social-links-div
