@@ -376,7 +376,9 @@ font-family:Roboto;
     color:white!important;
     margin-top: 5.5rem;
 }
-
+.team-info{
+    font-size:14px;
+}
 @media only screen and (max-width: 767px) {
   .social-links-div
 {
