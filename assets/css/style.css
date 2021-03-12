@@ -105,7 +105,7 @@ p{
 .icons-text {
   font-family: Roboto;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.11;
   color: #02014f;
   vertical-align: top;
@@ -195,7 +195,7 @@ footer.page-footer .footer-copyright {
   display: inline;
 }
 .our-story-image {
-  max-height:500px;
+  max-height:300px;
   border-radius: 10px;
 
 }
