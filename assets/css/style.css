@@ -383,6 +383,10 @@ font-family:Roboto;
     color:white!important;  
 }
 /* modal and animation*/
+#myImg {
+  
+  cursor: pointer;
+}
 .modal {
   display: none; 
   position: fixed; 
