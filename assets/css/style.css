@@ -44,7 +44,7 @@ h4 {
 }
 h5 {
   font-family: "Gilroy ExtraBold";
-  font-size: 20px;
+  font-size: 19px!important;
   letter-spacing: 0.13px;
   color: #02014f;
   vertical-align: middle;
@@ -294,18 +294,26 @@ footer.page-footer .footer-copyright {
     font-size: 25px;
      color: #02014f;
 }
-.curved-corner
+
+.curved-corner-list
 {
     background-color: #02014f;
     border-radius: 0 10px 0 0; 
     color:white!important;
-    height: 50%;
-    margin-top: 5.5rem;
+   
 }
 .list-elements
 {
     color:#02014f;
    font-family:Roboto;
+}
+.hide
+{
+    visibility: hidden;
+}
+.quote
+{
+    font-size: 15px;
 }
 .emr-heading
 {
