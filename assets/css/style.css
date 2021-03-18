@@ -203,6 +203,11 @@ footer.page-footer .footer-copyright {
   border-radius: 10px;
 
 }
+.aboutimg {
+  max-height:500px;
+  border-radius: 10px;
+
+}
 .their-work {
   max-height: 400px;
 }
