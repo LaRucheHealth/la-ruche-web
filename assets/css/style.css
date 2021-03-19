@@ -100,7 +100,7 @@ p{
   text-decoration: underline;
 }
 .section {
-  margin-top: 131px;
+  margin-top: 100px;
 }
 .icons-text {
   font-family: Roboto;
@@ -305,6 +305,7 @@ footer.page-footer .footer-copyright {
     background-color: #02014f;
     border-radius: 0 10px 0 0; 
     color:white!important;
+    height: 200px;
    
 }
 .list-elements
@@ -563,4 +564,5 @@ font-family:Roboto;
 {
     border:10px solid #5cc9ca;
     border-radius: 10px;
+   height: 200px;
 }
