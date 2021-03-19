@@ -208,6 +208,11 @@ footer.page-footer .footer-copyright {
   border-radius: 10px;
 
 }
+.founderimg {
+  max-height:300px;
+  border-radius: 10px;
+
+}
 .their-work {
   max-height: 400px;
 }
@@ -552,4 +557,10 @@ font-family:Roboto;
 {
     margin-left: 0rem;
 }
+}
+
+.icon-border
+{
+    border:10px solid #5cc9ca;
+    border-radius: 10px;
 }
