@@ -308,6 +308,15 @@ footer.page-footer .footer-copyright {
     height: 200px;
    
 }
+.parallelogram {
+    transform: skew(-10deg);
+   background-color: #02014f;
+   color: white!important;
+}
+.advisors
+{
+    color: white;
+}
 .list-elements
 {
     color:#02014f;
