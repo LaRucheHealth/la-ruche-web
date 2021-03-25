@@ -47,11 +47,6 @@ p{
   text-align: left;
   vertical-align: top;
 }
-ul
-{
-    color:#02014f;
-   font-family:Roboto;
-}
 .nav-link {
   font-family: Roboto;
   font-weight: 400;
@@ -79,6 +74,9 @@ ul
 .section {
   margin-top: 120px;
 }
+.solution-image {
+    max-height:200px;
+}
 .circle {
   background-color: rgba(19,201,202,0.2) !important;
   height: 63px;
@@ -94,7 +92,6 @@ ul
 .dark-blue {
   background-color: #02014f;
 }
-
 .contact-head {
   font-family: "Gilroy Light";
   font-size: 20px;
@@ -171,7 +168,6 @@ footer.page-footer .footer-copyright {
   text-decoration:underline;
 }
 .profile {
- 
   border-radius: 50%;
   height: 250px;
   width: 250px;
