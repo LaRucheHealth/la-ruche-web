@@ -19,40 +19,30 @@ h1 {
 h2 {
   color: #02014f;
   letter-spacing: 0.4px;
-  font-size: 50px;
-  font-family: "Gilroy ExtraBold";
+  font-size: 40px;
+  font-family: "Gilroy Light";
   text-align: left;
   vertical-align: middle;
 }
 h3 {
-  font-family: "Gilroy Light";
-  font-size: 40px;
-  letter-spacing: 2px;
-  color: #02014f;
-  text-align: center;
-  vertical-align: middle;
-}
-h4 {
   font-family: "Gilroy ExtraBold";
-  font-size: 30px;
-  letter-spacing: 0.2px;
-  color: #02014f;
-  text-align: left;
-  vertical-align: middle;
-  line-height: 1.5;
-
-}
-h5 {
-  font-family: "Gilroy ExtraBold";
-  font-size: 19px!important;
+  font-size: 30px!important;
   letter-spacing: 0.13px;
   color: #02014f;
   vertical-align: middle;
 }
+h4 {
+  font-family: "Gilroy ExtraBold";
+  font-size: 20px!important;
+  letter-spacing: 0.13px;
+  color: #02014f;
+  vertical-align: middle;
+
+}
 p{
   font-family: Roboto;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   color: #02014f;
   text-align: left;
   vertical-align: top;
@@ -81,34 +71,11 @@ p{
   text-transform: uppercase;
   text-align: center;
 }
-.main-learn {
-  color: white;
-  background-color: #200093;
-  font-family: "Gilroy Light";
-  font-size: 16px;
-  letter-spacing: 0.888889;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left: 26px;
-  padding-right: 26px;
-  border-radius: 20px;
-  text-align: center;
-  vertical-align: top;
-}
-.main-learn:hover {
-  color:white;
-  text-decoration: underline;
-}
 .section {
-  margin-top: 100px;
+  margin-top: 120px;
 }
-.icons-text {
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 0.11;
-  color: #02014f;
-  vertical-align: top;
+.solution-image {
+    max-height:200px;
 }
 .circle {
   background-color: rgba(19,201,202,0.2) !important;
@@ -122,21 +89,8 @@ p{
   width: 33px;
   margin-top:15px;
 }
-.link {
-  color: #5cc9ca;
-  font-family: Roboto;
-  font-weight:300;
-  text-decoration: underline;
-}
-.link:hover {
-  color:#5cc9ca;
-  text-decoration: underline;
-}
 .dark-blue {
   background-color: #02014f;
-}
-.contact {
-  color: #5cc9ca;
 }
 .contact-head {
   font-family: "Gilroy Light";
@@ -159,9 +113,6 @@ p{
   color: #5cc9ca;
   text-align: left;
   vertical-align: top;
-}
-.phone-icon {
-  transform: rotateY(180deg);
 }
 .social-links {
   color: #02014f;
@@ -198,68 +149,6 @@ footer.page-footer .footer-copyright {
   padding-bottom: 15px !important;
   display: inline;
 }
-.our-story-image {
-  max-height:250px;
-  border-radius: 10px;
-
-}
-.aboutimg {
-  max-height:500px;
-  border-radius: 10px;
-
-}
-.founderimg {
-  max-height:300px;
-  border-radius: 10px;
-
-}
-.their-work {
-  max-height: 400px;
-}
-.progressbar li, .progressbar3 li {
-  list-style-type: none;
-  width: 25%;
-  float: left;
-  position: relative;
-  text-align: center;
-}
-.progressbar li:before, .progressbar3 li:before {
-  width: 20px;
-  height: 20px;
-  display: block;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
-  background-color: #5cc9ca;
-}
-.progressbar li:after, .progressbar3 li:after {
-  width: 100%;
-  height: 1px;
-  content: '';
-  position: absolute;
-  background-color: #5cc9ca;
-  top: 8px;
-  left: -50%;
-  z-index: - 1;
-}
-.progressbar li:first-child:after, .progressbar3 li:first-child:after {
-  content: none;
-}
-.progressbar li.done:before, .progressbar3 li.done:before {
-  content: "";
-}
-.progress-title {
-  font-family: "Gilroy ExtraBold";
-  color: #5cc9ca;
-  font-size:24px;
-  line-height:1;
-}
-.progress-text {
-  font-family:Roboto;
-  font-weight:300;
-  font-size: 16px;
-  color: #02014f;
-  text-align:center;
-}
 .btn {
   color: white;
   background-color: #5cc9ca;
@@ -278,79 +167,10 @@ footer.page-footer .footer-copyright {
   color:white;
   text-decoration:underline;
 }
-.storyy
-{
-    height:70%;
-}
-/* Teams page */
-.team-name
-{
-    font-size: 29px;
-}
 .profile {
- 
   border-radius: 50%;
   height: 250px;
   width: 250px;
-}
-.team-social
-{
-    text-align: center;
-    font-size: 25px;
-     color: #02014f;
-}
-
-.curved-corner-list
-{
-    background-color: #02014f;
-    border-radius: 0 10px 0 0; 
-    color:white!important;
-    height: 200px;
-   
-}
-.parallelogram {
-    transform: skew(-10deg);
-   background-color: #02014f;
-   color: white!important;
-}
-.advisors
-{
-    color: white;
-}
-.list-elements
-{
-    color:#02014f;
-   font-family:Roboto;
-}
-.hide
-{
-    visibility: hidden;
-}
-.quote
-{
-    font-size: 15px;
-}
-.emr-heading
-{
-    font-family: "Gilroy ExtraBold";
-  font-size: 19px;
-  letter-spacing: 0.13px;
-  color: #02014f;
-  vertical-align: middle;
-}
-
-.contact-email
-{
-    color: #02014f;
-    font-weight: 700;
-    font-family:Roboto;
-}
-.contact-email:hover
-{
-    color: #02014f;
-    font-weight: 700;
-    font-family:Roboto;
-     text-decoration: underline;
 }
 .form-control:focus {
   border-color: #5cc9ca;
@@ -375,13 +195,11 @@ footer.page-footer .footer-copyright {
 .form-control:hover {
 font-family:Roboto;
 }
-
 .after-submit
 {
     display: none;
     visibility: hidden;
 }
-
 .thanks_msg
 {
     font-family: Roboto;
@@ -393,185 +211,13 @@ font-family:Roboto;
 {
     margin-left: 3rem;
 }
-.pic-details
+.story-img
 {
-    font-size: 13px;
+    max-height: 450px;
 }
-.EMR-Content
-{
-    font-size: 16px;
-}
-.statement
-{
-    background-color: #02014f;
-    border-radius: 0 10px 0 0; 
-    color:white!important;
-    margin-top: 5.5rem;
-}
-.team-info{
-    font-size:14px;
-     background-color: #02014f;
-    border-radius: 0 10px 0 0; 
-    color:white!important;  
-}
-/* modal and animation*/
-#myImg {
-  
-  cursor: pointer;
-}
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.9); 
-}
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-}
-.modal-content {  
- -webkit-animation: bounce-in-top 1.1s both;
-	        animation: bounce-in-top 1.1s both;
-}
-@-webkit-keyframes bounce-in-top {
-  0% {
-    -webkit-transform: translateY(-500px);
-            transform: translateY(-500px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: translateY(-65px);
-            transform: translateY(-65px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: translateY(-28px);
-            transform: translateY(-28px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  90% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-@keyframes bounce-in-top {
-  0% {
-    -webkit-transform: translateY(-500px);
-            transform: translateY(-500px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: translateY(-65px);
-            transform: translateY(-65px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: translateY(-28px);
-            transform: translateY(-28px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  90% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
 @media only screen and (max-width: 767px) {
   .social-links-div
 {
     margin-left: 0rem;
 }
-}
-
-.icon-border
-{
-    border:10px solid #5cc9ca;
-    border-radius: 10px;
-   height: 200px;
 }
