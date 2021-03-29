@@ -115,6 +115,10 @@ p{
   text-align: left;
   vertical-align: top;
 }
+.contact-img
+{
+   max-height: 250px;
+}
 .social-links {
   color: #02014f;
   font-size: 20px;
