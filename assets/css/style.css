@@ -222,8 +222,24 @@ font-family:Roboto;
 {
     margin-left: 0rem;
 }
+.card-body
+{
+    color:#02014f
+}
 .contact-img
 {
    max-height: 250px;
 }
+}
+.parallelogram {
+    transform: skew(-10deg);
+   background-color: #02014f;
+}
+.advisors
+{
+    color: white;
+}
+.card-body
+{
+    min-height: 150px;
 }
