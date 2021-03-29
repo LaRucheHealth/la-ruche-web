@@ -8,6 +8,7 @@
   font-family: Gilroy ExtraBold;
   src: url(../fonts/Gilroy-ExtraBold.otf);
 }
+
 h1 {
   color: #02014f;
   letter-spacing: 0.4px;
@@ -110,7 +111,7 @@ p{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #5cc9ca;
+  color: #5cc9ca!important;
   text-align: left;
   vertical-align: top;
 }
