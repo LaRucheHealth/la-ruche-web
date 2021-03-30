@@ -40,6 +40,10 @@ h4 {
   vertical-align: middle;
 
 }
+h5 {
+  font-family: "Gilroy ExtraBold";
+  color: #02014f;
+}
 p{
   font-family: Roboto;
   font-weight: 300;
@@ -221,10 +225,6 @@ font-family:Roboto;
   .social-links-div
 {
     margin-left: 0rem;
-}
-.card-body
-{
-    color:#02014f
 }
 .contact-img
 {
