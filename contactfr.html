@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <!-- Custom CSS styling -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>La Ruche</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!--Navbar -->
+      <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0">
+        <a class="navbar-brand" href="/"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="30" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-4" href="/">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="about.html">À Propos</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link px-4" href="solutions.html">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="prouducts.html">Produits</a>
+            </li>
+             <li class="nav-item">
+              <a href="contact.html" class="nav-link px-4">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 learn-more nav-learn" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+      <div class="section">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5 my-3">
+              <h1> Entrer en contact !</h1>
+            <p><br>Pour contacter notre équipe, merci de remplir le formulaire ci-dessous</p>
+            <h6>Nous aimerions recevoir de vos nouvelles:</h6>
+            <ul>
+                <li>Intéressé par notre solution en tant que client?</li>
+                <li>Intéressé à être un partenaire de mise en œuvre?</li>
+                <li>Intéressé à être un partenaire de services de plateforme?</li>
+                <li>Intéressé par les opportunités d’investissement?</li>
+                <li>Intéressé à joindre notre équipe?</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-7 my-4 d-flex justify-content-center">
+            <img src="assets/imgs/contact-us.png" alt="Contact-image"class="img-fluid contact-img">
+          </div>
+        </div>
+      </div>
+      <div class="section">
+          <div class="row after-submit" id="thanks">
+               <div class="col-sm-12 col-md-12 col-lg-12">
+                      <h4 class="text-center">Thank you for getting in touch! </h4>
+               </div>
+               <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h5 class="text-center thanks_msg">We appreciate you contacting La Ruche. One of our Team will get back in touch with you soon.</h5>
+               </div>
+          </div>
+        <form method="post" autocomplete="off" name="google-sheet" id="myForm">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1 required" name="Full_name" type="text" placeholder="Nom Complet" required>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1"  type="email" name="Email" placeholder="Adresse Email" required>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1" type="text" name="Organisation" placeholder="Organisation">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1" type="tel"  name="Telephone_number" placeholder="Numéro de téléphone">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1" type="text" name="Location" placeholder="Adresse" required>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+              <input class="form-control my-1" type="text"  name="Subject" placeholder="Sujet" required>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 form-group">
+              <textarea class="form-control my-3" rows="5"  name="Message" placeholder="Message" required></textarea>
+            </div>
+          </div>
+            <div class="form-group">
+          <button type="submit" value="Submit"class="btn mt-5 submit">Nous faire parvenir!</button>
+            </div>
+        </form>
+    </div>
+    
+
+    </div>
+    <div class="section">
+      <!-- Footer -->
+      <footer class="page-footer font-small py-5 dark-blue">
+        <p class="text-center contact-head">Nous Contacter</p>
+        <p class="text-center contact-text">
+           Envie de vous associer avec nous? Entrer en contact!
+        </p>
+        <p class="contact-details text-center">
+           <i class="ml-3 mr-2 fas fa-envelope"></i><a class="contact-details" href="mailto:partners@laruche.health">partners@laruche.health</a>
+        </p>
+      </footer>
+      <!-- Footer -->
+      <!-- Footer -->
+     <footer class="page-footer font-small white pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mt-md-0 mt-3 social-links-div">
+              <img alt="Full size logo footer" src="assets/imgs/full-logo.png" width="130" />
+              <br>
+                 <a href="https://twitter.com/LaRuche_Health " target="_blank">
+                     <i class="fab fa-twitter ml-4 mr-2 social-links mt-5"></i>
+                </a>
+                 <a href="https://www.facebook.com/Laruchehealth-166686058318442" target="_blank">
+                     <i class="fab fa-facebook-f ml-4 mx-2 social-links mt-5"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/la-ruche-health/people/" target="_blank">
+                    <i class="fab fa-linkedin ml-4 mr-2 social-links mt-5"></i>
+                </a>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3" />
+            <div class="col-md-2 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading"> A Propos De Nous</h5>
+              <ul class="list-unstyled">
+                <li>
+                    <a class="footer-links" href="solutions.html">Notre Mission</a>
+                    <br>
+                    <a class="footer-links" href="about.html">Notre Histoire</a>
+                    <br>
+                    <a class="footer-links" href="about.html#Team">L’Équipe</a>
+                    <br>
+                    <a class="footer-links" href="advisory-board.html">Conseil consultatif</a>
+                </li>
+              </ul>
+            </div>
+             <div class="col-md-2 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Produits</h5>
+              <ul class="list-unstyled">
+                  <li>
+                  <a class="footer-links" href="solutions.html#solution">Solutions</a>
+                  </li>
+                <li>
+                  <a class="footer-links" href="prouducts.html#Health Worker Portal">EMR</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Nous Contacter</h5>
+              <ul class="list-unstyled">
+                  <li>
+                 <a class="footer-links mt-2" href="contact.html">Contact Form</a>
+                </li>
+                <li>
+                 <a class="footer-links mt-2" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+                </li>
+                <li>
+                 <a class="footer-links mt-2"  href="mailto:partners@laruche.health">partners@laruche.health</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center pt-3 pb-3">
+          <hr />
+          <p class="tnc text-left pr-1">Conditions générales</p>
+          <p class="tnc text-right pl-1">© 2021 | Tous droits réservés</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer -->
+ <script src="assets/js/script.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  </body>
+
+</html>
