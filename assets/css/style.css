@@ -244,3 +244,33 @@ font-family:Roboto;
 {
     min-height: 150px;
 }
+ .dropdown-menu {
+   border: 0;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: center;
+    list-style: none;
+    border: 0px;
+    background-color: #fff;
+    background-clip: padding-box;
+
+}
+  .navbar .dropdown-menu {
+    position: relative!important;
+
+}
+}
