@@ -274,3 +274,9 @@ font-family:Roboto;
 
 }
 }
+@media only screen and (max-width: 1200px) {
+  .nav-link 
+  {
+    font-size: 0.7rem;
+  }
+}
