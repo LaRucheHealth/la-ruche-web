@@ -69,7 +69,7 @@ p{
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
   font-size: 0.75em;
-  border-radius: 1.3125rem;
+  /* border-radius: 1.3125rem; */
   padding-left: 1.875rem !important;
   padding-right: 1.875rem !important;
   letter-spacing: 0.041875rem;
