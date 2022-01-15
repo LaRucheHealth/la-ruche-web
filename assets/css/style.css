@@ -368,3 +368,27 @@ font-family:Roboto;
   padding-right: 50px;
   padding-bottom: 130px;
 }
+
+.market-container{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 130px;
+}
+
+.market-logo-container{
+  background-color: white; 
+  border-radius: 7px; 
+  padding: 25px 15px 25px 15px; 
+  margin: 45px 55px 18px 45px; 
+  height: 300px; 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#market-logo{
+  width: 20rem; 
+  margin-top: 77px;
+  margin-left: 12px;
+}
