@@ -358,3 +358,13 @@ font-family:Roboto;
   text-align: center;
   vertical-align: top;
 }
+
+.healthworker-container{
+  background-color: #F5F5F5;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 130px;
+}
