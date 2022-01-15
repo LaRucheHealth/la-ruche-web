@@ -12,7 +12,7 @@
 h1 {
   color: #02014f;
   letter-spacing: 0.4px;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Gilroy ExtraBold";
   text-align: left;
   vertical-align: middle;
@@ -279,4 +279,56 @@ font-family:Roboto;
   {
     font-size: 0.7rem;
   }
+}
+
+.solutions-container{
+  background-color: rgb(236, 236, 236);
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-bottom: 130px;
+}
+
+.solutions-btn-container{
+  position: relative;
+  background-color: white;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  margin: 10px 10px 10px 10px;
+}
+
+.solutions-btn-container:hover{
+  background-color: #0B0249;
+}
+
+.solutions-btn-container:hover p{
+  color: white;
+}
+
+.solutions-btn-container:hover h4{
+  color: white;
+}
+
+.solutions-btn-container:hover #mobile-svg{
+  fill: white;
+}
+.solutions-btn-container:hover #tablet-svg{
+  fill: white;
+}
+
+
+@media only screen and (max-width: 765px){
+  .solutions-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.buttom-p{
+  position: absolute;
+  bottom: 0;
+  left: 4;
+  justify-content: center;
+  margin-top: 7px;
 }
