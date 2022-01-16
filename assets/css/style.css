@@ -195,13 +195,20 @@ footer.page-footer .footer-copyright {
     /* color: #495057; */
     color: white;
     /* background-color: #fff; */
-    background: transparent;
+    background-color: rgba(255, 253, 253, 0.1);
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: none;
     /* border-radius: .25rem; */
     border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1; 
+  font-size: 12px;
+}
+
 .form-control:hover {
 font-family:Roboto;
 }
