@@ -179,6 +179,7 @@ footer.page-footer .footer-copyright {
   width: 250px;
 }
 .form-control:focus {
+  background: transparent;
   border-color: #5cc9ca;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5cc9ca;
 }
@@ -191,15 +192,23 @@ footer.page-footer .footer-copyright {
     font-family:Roboto;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    /* color: #495057; */
+    color: white;
+    /* background-color: #fff; */
+    background: transparent;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
+    /* border-radius: .25rem; */
+    border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-control:hover {
 font-family:Roboto;
+}
+
+#form-header{
+  color: white;
+  font-size: 25px;
 }
 .after-submit
 {
@@ -407,3 +416,29 @@ font-family:Roboto;
   text-decoration: none;
 }
 
+.contact-banner-container{
+  border: 1px solid black;
+  padding: 0px;
+  color: white;
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+}
+#banner-header{
+  color: white;
+  padding: 75px;
+  font-size: 60px;
+}
+
+.contact-infos-h{
+    font-size: 20px;
+}
+
+.contact-form-container{
+  padding: 40px;
+  background-image: linear-gradient(to bottom right, #5cc9ca, #0B0249);
+}
+
+.form-control{
+
+}

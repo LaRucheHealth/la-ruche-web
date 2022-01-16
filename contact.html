@@ -75,12 +75,16 @@
         </div>
       </nav>
       <!--/.Navbar -->
-      <div class="section">
-        <div class="row">
+      <div class="banner">
+        <div class="container contact-banner-container" style="background-image: url('assets/imgs/contact-page-banner.png');">
+          <h1 id="banner-header">Contact</h1>
+        </div>
+       
+      </div>
+      <div class="section" style="margin-top: 30px;">
+        <div class="row ">
           <div class="col-sm-12 col-md-12 col-lg-5 my-3">
-              <h1>Get in Touch!</h1>
-            <p><br>To contact our team, please fill out the form below. </p>
-            <h6>We’d love to hear from you:</h6>
+              <h1>Get in Touch</h1>
             <ul>
                 <li>Interested in our solution as a client?</li>
                 <li>Interested in being an implementation partner?</li>
@@ -89,8 +93,23 @@
                 <li>Interested in joining our team?</li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-7 my-4 d-flex justify-content-center">
-            <img src="assets/imgs/contact-us.png" alt="Contact-image"class="img-fluid contact-img">
+          <div class="col-sm-12 col-md-12 col-lg-5 my-4 justify-content-center">
+            <div class="row">
+              <div class="col">
+                <h1 class="contact-infos-h"> Our Address</h1>
+                <p>National Habour MD 20745 United States</p>
+              </div>
+              <div class="col">
+                <h1 class="contact-infos-h">Our Mailbox</h1>
+                <p>partners@laruche.health</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <h1 class="contact-infos-h">Our Phone Number</h1>
+                <p>+1 (866) 742 4255</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -103,34 +122,39 @@
                     <h5 class="text-center thanks_msg">We appreciate you contacting La Ruche. One of our Team will get back in touch with you soon.</h5>
                </div>
           </div>
-        <form method="post" autocomplete="off" name="google-sheet" id="myForm">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1 required" name="Full_name" type="text" placeholder="Full Name" required>
+        <div class="contact-form-container">
+          <h1 id="form-header">We'd love to hear from you</h1>
+          <p style="color: white;">To contact our team please fill out this form below</p>
+          <form method="post" autocomplete="off" name="google-sheet" id="myForm">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1 required" name="Full_name" type="text" placeholder="Full Name" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1"  type="email" name="Email" placeholder="Email Address" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text" name="Organisation" placeholder="Organisation">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="tel"  name="Telephone_number" placeholder="Telephone number">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text" name="Location" placeholder="Location" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text"  name="Subject" placeholder="Subject" required>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 form-group">
+                <textarea class="form-control my-3" rows="5"  name="Message" placeholder="Message" required></textarea>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1"  type="email" name="Email" placeholder="Email Address" required>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text" name="Organisation" placeholder="Organisation">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="tel"  name="Telephone_number" placeholder="Telephone number">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text" name="Location" placeholder="Location" required>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text"  name="Subject" placeholder="Subject" required>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 form-group">
-              <textarea class="form-control my-3" rows="5"  name="Message" placeholder="Message" required></textarea>
-            </div>
-          </div>
-            <div class="form-group">
-          <button type="submit" value="Submit"class="btn mt-5 submit">Submit!</button>
-            </div>
-        </form>
+              <div class="form-group">
+            <button type="submit" value="Submit"class="btn mt-5 submit">Submit!</button>
+              </div>
+          </form>
+        </div>
+        
     </div>
     
 
