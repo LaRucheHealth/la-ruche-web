@@ -465,3 +465,10 @@ font-family:Roboto;
     padding-bottom: 5px;
   }
 }
+
+.solution-links{
+  text-decoration: none;
+}
+.solution-links:hover{
+  text-decoration: none;
+}
