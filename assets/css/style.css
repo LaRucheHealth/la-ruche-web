@@ -354,6 +354,15 @@ font-family:Roboto;
   margin-bottom: 45px;
 }
 
+@media only screen and (max-width: 765px){
+  .healthhub-container{
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
 .sln-sect-container{
   padding: 0px;
   margin-top: 25px;
@@ -458,8 +467,8 @@ font-family:Roboto;
 
 @media only screen and (max-width: 765px){
   .healthworker-container{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 8px;
+    padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -467,8 +476,8 @@ font-family:Roboto;
 
 @media only screen and (max-width: 765px){
   .market-container{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
