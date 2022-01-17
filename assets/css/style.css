@@ -446,6 +446,22 @@ font-family:Roboto;
   background-image: linear-gradient(to bottom right, #5cc9ca, #0B0249);
 }
 
-.form-control{
 
+
+@media only screen and (max-width: 765px){
+  .healthworker-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 765px){
+  .market-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
