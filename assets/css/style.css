@@ -409,8 +409,15 @@ font-family:Roboto;
   margin-left: 12px;
 }
 
+.green-btns{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
 .green-btns:hover{
   background-color: #0B0249;
+  text-decoration: none;
+  color: white;
 }
 
 .get-early-btns{
@@ -421,6 +428,7 @@ font-family:Roboto;
 .get-early-btns:hover{
   background-color: #5cc9ca;
   text-decoration: none;
+  color: white;
 }
 
 .contact-banner-container{
