@@ -325,10 +325,10 @@ font-family:Roboto;
 }
 
 .solutions-btn-container:hover #mobile-svg{
-  fill: white;
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
 }
 .solutions-btn-container:hover #tablet-svg{
-  fill: white;
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
 
