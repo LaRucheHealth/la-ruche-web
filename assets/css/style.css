@@ -366,8 +366,8 @@ font-family:Roboto;
   left: 4;
   justify-content: center;
   margin-top: 5px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .healthhub-container{
@@ -444,6 +444,7 @@ font-family:Roboto;
   padding-left: 45px;
   padding-right: 45px;
   margin-right: 5px;
+  border-radius: 3px;
 }
 
 @media only screen and (max-width: 375px){
@@ -468,6 +469,7 @@ font-family:Roboto;
   font-size: 10px;
   background-color: #0B0249;
   text-decoration: none;
+  border-radius: 3px;
 }
 
 .get-early-btns:hover{
