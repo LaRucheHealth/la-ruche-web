@@ -328,6 +328,7 @@ font-family:Roboto;
   background-color: white;
   padding: 1.5rem 2rem 1.5rem 2rem;
   margin: 10px 10px 10px 10px;
+  border: 1px solid #0B0249;
 }
 
 .solutions-btn-container:hover{
