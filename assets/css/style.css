@@ -351,6 +351,9 @@ font-family:Roboto;
 .solutions-btn-container:hover #tablet-svg{
   filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
 }
+.solutions-btn-container:hover #market-svg{
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
 
 
 @media only screen and (max-width: 765px){
