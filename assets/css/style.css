@@ -552,3 +552,11 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
+
+.fluid-containers{
+  padding: 0px 70px;
+}
+
+.nav-fluid-container{
+  padding: 0px 120px;
+}
