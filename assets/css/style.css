@@ -249,7 +249,7 @@ font-family:Roboto;
 .story-img
 {
     object-fit: cover;
-    max-height: 450px;
+    /* max-height: 450px; */
     width: 100%;
 }
 @media only screen and (max-width: 767px) {
