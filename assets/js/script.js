@@ -1,6 +1,6 @@
 $(window).scroll(function(){
   console.log("here")
-  var $nav = $("nav");
+  var $nav = $(".navbar-fixed-top");
   $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 })
 
