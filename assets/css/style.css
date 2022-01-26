@@ -638,3 +638,7 @@ letter-spacing: 0px;
 color: #0B0249;
 opacity: 1;
 }
+
+.carousel-indicators{
+  bottom: -50px;
+}
