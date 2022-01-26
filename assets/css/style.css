@@ -597,3 +597,43 @@ opacity:1;
   backdrop-filter: blur(10px);
   transition: background-color 100ms linear;
 }
+.missionimg
+{
+  padding: 3rem;
+
+}
+.mission{
+  background-color: rgba(78, 199, 197, 0.4);
+}
+.quote
+{
+  text-align: left;
+  font: italic normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #0B0249;
+  opacity: 1;
+}
+.subquote
+{
+  text-align: left;
+font: italic normal 300 14px/21px Poppins;
+letter-spacing: 0px;
+color: #0B0249;
+opacity: 1;
+}
+.missiontext
+{
+  text-align: left;
+font: normal normal 300 18px/27px Poppins;
+letter-spacing: 0px;
+color: #0B0249;
+opacity: 1;
+}
+.ourmission
+{
+  text-align: left;
+font: normal normal bold 70px/106px Poppins;
+letter-spacing: 0px;
+color: #0B0249;
+opacity: 1;
+}
