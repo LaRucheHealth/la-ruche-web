@@ -1,3 +1,10 @@
+$(window).scroll(function(){
+  console.log("here")
+  var $nav = $("nav");
+  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+})
+
+
 const scriptURL = 'https://script.google.com/macros/s/AKfycbws2HFwMZJLnZ99rReIUVy8IyRHpTeKuP2X9GSlwzmLqpgh8LxcdiP2rDPKY-F1hZ-R/exec'
             const form = document.forms['google-sheet']
             form.addEventListener('submit', e => {
@@ -6,5 +13,3 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbws2HFwMZJLnZ99rReIUV
                 .then(response => setTimeout(function(){ document.getElementById('thanks').classList.remove("after-submit"); document.getElementById('myForm').classList.add("after-submit")}, 1))
                 .catch(error => console.error('Error!', error.message))
             });
-
-              

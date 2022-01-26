@@ -591,3 +591,9 @@ opacity:1;
     padding-right: 0px;
   }
 }
+
+.navbar-fixed-top.scrolled{
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+  transition: background-color 100ms linear;
+}
