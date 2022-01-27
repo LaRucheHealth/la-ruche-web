@@ -655,3 +655,12 @@ opacity: 1;
 .carousel-indicators{
   bottom: -50px;
 }
+.checkcircle
+{
+  font-size: 17px; 
+  color: turquoise;
+}
+.listtext
+{
+  font-size: 14px;
+}
