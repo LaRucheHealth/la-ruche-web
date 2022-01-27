@@ -432,16 +432,27 @@ font-family:Roboto;
 .market-logo-container{
   background-color: white; 
   border-radius: 7px; 
-  padding: 25px 15px 25px 15px; 
-  margin: 45px 55px 18px 45px; 
-  height: 300px; 
+  /* padding: 25px 15px 25px 15px;  */
+  /* margin: 18px 25px 18px 18px;  */
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  /* height: 300px;  */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 #market-logo{
-  width: 20rem; 
-  margin-top: 77px;
-  margin-left: 12px;
+  /* width: 20rem;  */
+  width: 100%;
+  height: fit-content;
+  /* margin-top: 77px;
+  margin-left: 12px; */
+  border-radius: 5px;
+}
+
+#market-header{
+  font-size: 57px;
 }
 
 .green-btns{
