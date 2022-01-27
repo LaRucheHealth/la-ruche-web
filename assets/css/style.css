@@ -576,7 +576,8 @@ opacity:1;
   padding: 0px 120px;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
+   
   h1 {
     color: #02014f;
     letter-spacing: 0.4px;
@@ -595,6 +596,7 @@ opacity:1;
 }
 
 @media (max-width: 320px){
+  
   .healthhub-container{
     margin-top: 45px;
     margin-bottom: 45px;
@@ -603,6 +605,10 @@ opacity:1;
   }
   #banner-header{
     padding: 65px 65px 0 25px;
+  }
+  .list-text
+  {
+    font-size: 12px!important;
   }
 }
 
@@ -663,4 +669,12 @@ opacity: 1;
 .list-text
 {
   font-size: 14px;
+}
+@media (max-width: 679px){
+  
+
+  .list-text
+  {
+    font-size: 12px!important;
+  }
 }
