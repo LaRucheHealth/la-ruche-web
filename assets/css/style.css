@@ -526,6 +526,9 @@ font-family:Roboto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  #contact-detail-row{
+    padding: 0 15px;
+  }
 }
 
 
@@ -590,6 +593,9 @@ opacity:1;
     margin-bottom: 45px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  #banner-header{
+    padding: 65px 65px 0 25px;
   }
 }
 
