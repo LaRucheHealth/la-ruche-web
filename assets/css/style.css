@@ -610,6 +610,10 @@ opacity:1;
   {
     font-size: 12px!important;
   }
+
+  #market-header{
+    font-size: 30px;
+  }
 }
 
 .navbar-fixed-top.scrolled{
