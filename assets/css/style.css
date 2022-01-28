@@ -614,6 +614,9 @@ opacity:1;
   #market-header{
     font-size: 30px;
   }
+  .healthhub-container{
+    margin-bottom: 0;
+  }
 }
 
 .navbar-fixed-top.scrolled{
