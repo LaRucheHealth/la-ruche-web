@@ -617,6 +617,9 @@ opacity:1;
   .healthhub-container{
     margin-bottom: 0;
   }
+  p{
+    font-size: 15px;
+  }
 }
 
 .navbar-fixed-top.scrolled{
