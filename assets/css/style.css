@@ -678,6 +678,10 @@ opacity: 1;
   font-size: 28px;
 }
 
+.about-text-container{
+  min-height: 305px;
+}
+
 
 .carousel .carousel-indicators li {  background-color: gray; }
 .carousel .carousel-indicators li.active { background-color: var(--dark); }
