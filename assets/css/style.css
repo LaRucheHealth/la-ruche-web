@@ -174,11 +174,24 @@ footer.page-footer .footer-copyright {
   font-family: "Gilroy Light";
   font-size: 16px;
   letter-spacing: 0.888889;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 26px;
   padding-right: 26px;
-  border-radius: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+.btn-ea
+{
+  color: white;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 16px;
+  letter-spacing: 0.888889;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 26px;
+  padding-right: 26px;
   text-align: center;
   vertical-align: top;
 }
@@ -456,7 +469,7 @@ font-family:Roboto;
 }
 
 .green-btns{
-  font-size: 10px;
+  font-size: 14px;
   padding-left: 45px;
   padding-right: 45px;
   margin-right: 5px;
@@ -482,7 +495,7 @@ font-family:Roboto;
 }
 
 .get-early-btns{
-  font-size: 10px;
+  font-size: 14px;
   background-color: #0B0249;
   text-decoration: none;
   border-radius: 3px;
@@ -495,7 +508,6 @@ font-family:Roboto;
 }
 
 .contact-banner-container{
-  border: 1px solid black;
   padding: 0px;
   color: white;
   height: 210px;
@@ -666,14 +678,7 @@ opacity: 1;
 {
   font-size: 14px;
 }
-@media (max-width: 679px){
-  
 
-  .list-text
-  {
-    font-size: 12px!important;
-  }
-}
 
 .carousel .carousel-indicators li {  background-color: gray; }
 .carousel .carousel-indicators li.active { background-color: var(--dark); }
