@@ -1,8 +1,3 @@
-$(window).scroll(function(){
-  var $nav = $(".navbar-fixed-top");
-  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-})
-
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbws2HFwMZJLnZ99rReIUVy8IyRHpTeKuP2X9GSlwzmLqpgh8LxcdiP2rDPKY-F1hZ-R/exec'
             const form = document.forms['google-sheet']
