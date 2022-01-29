@@ -672,11 +672,16 @@ opacity: 1;
 .checkcircle
 {
   font-size: 17px; 
-  color: turquoise;
+  color: #5cc9ca;
 }
 .list-text
 {
   font-size: 14px;
+}
+
+.contact-icon{
+  color: #5cc9ca;
+  font-size: 28px;
 }
 
 
