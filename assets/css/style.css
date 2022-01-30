@@ -9,6 +9,11 @@
   src: url(../fonts/Gilroy-ExtraBold.otf);
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   color: #02014f;
   letter-spacing: 0.4px;
@@ -20,8 +25,8 @@ h1 {
 h2 {
   color: #02014f;
   letter-spacing: 0.4px;
-  font-size: 40px;
-  font-family: "Gilroy Light";
+  font-size: 50px;
+  font-family: "Gilroy ExtraBold";
   text-align: left;
   vertical-align: middle;
 }
@@ -69,16 +74,24 @@ p{
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
   font-size: 0.75em;
-  border-radius: 1.3125rem;
+  /* border-radius: 1.3125rem; */
   padding-left: 1.875rem !important;
   padding-right: 1.875rem !important;
   letter-spacing: 0.041875rem;
   text-transform: uppercase;
   text-align: center;
 }
+
 .section {
+  margin-top: 0px;
+  margin-left: 13px;
+  margin-right: 15px;
+}
+
+.footer-section{
   margin-top: 120px;
 }
+
 .solution-image {
     max-height:200px;
 }
@@ -90,8 +103,8 @@ p{
   margin: 0 auto;
 }
 .alignment {
-  height: 33px;
-  width: 33px;
+  height: 50px;
+  width: 50px;
   margin-top:15px;
 }
 .dark-blue {
@@ -160,12 +173,20 @@ footer.page-footer .footer-copyright {
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
   font-size: 16px;
-  letter-spacing: 0.888889;
-  padding-top: 11px;
-  padding-bottom: 11px;
   padding-left: 26px;
   padding-right: 26px;
-  border-radius: 20px;
+  text-align: center;
+  vertical-align: top;
+  min-width: 200px;
+}
+.btn-ea
+{
+  color: white;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 16px;
+  padding-left: 26px;
+  padding-right: 26px;
   text-align: center;
   vertical-align: top;
 }
@@ -179,6 +200,7 @@ footer.page-footer .footer-copyright {
   width: 250px;
 }
 .form-control:focus {
+  background: transparent;
   border-color: #5cc9ca;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5cc9ca;
 }
@@ -191,15 +213,30 @@ footer.page-footer .footer-copyright {
     font-family:Roboto;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    /* color: #495057; */
+    color: white;
+    /* background-color: #fff; */
+    background-color: rgba(255, 253, 253, 0.2);
     background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+    border: none;
+    /* border-radius: .25rem; */
+    border-radius: 0px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1; 
+  font-size: 12px;
+}
+
 .form-control:hover {
 font-family:Roboto;
+}
+
+#form-header{
+  color: white;
+  font-size: 25px;
 }
 .after-submit
 {
@@ -219,7 +256,9 @@ font-family:Roboto;
 }
 .story-img
 {
-    max-height: 450px;
+    object-fit: cover;
+    /* max-height: 450px; */
+    width: 100%;
 }
 @media only screen and (max-width: 767px) {
   .social-links-div
@@ -280,3 +319,370 @@ font-family:Roboto;
     font-size: 0.7rem;
   }
 }
+
+.solutions-container{
+  background-color: #F5F5F5;
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-bottom: 130px;
+  margin: 0;
+}
+
+/* .solution-row-container{
+  background-color: #F5F5F5;
+} */
+
+.solutions-btn-container{
+  position: relative;
+  background-color: white;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  margin: 20px 30px 20px 30px;
+  /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+  border: 1px solid #0B0249;
+}
+
+.solutions-btn-container:hover{
+  background-color: #0B0249;
+}
+
+.solutions-btn-container:hover p{
+  color: white;
+}
+
+.solutions-btn-container:hover h4{
+  color: white;
+}
+
+.solutions-btn-container:hover #mobile-svg{
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.solutions-btn-container:hover #tablet-svg{
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.solutions-btn-container:hover #market-svg{
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+
+@media only screen and (max-width: 765px){
+  .solutions-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.buttom-p{
+  position: absolute;
+  bottom: 0;
+  left: 4;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.healthhub-container{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 765px){
+  .healthhub-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.sln-sect-container{
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.slns-sect-btns{
+  width: 105px;
+  color: white;
+  background-color: #5cc9ca;
+  font-family: "Gilroy Light";
+  font-size: 16px;
+  letter-spacing: 0.888889;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.healthworker-container{
+  background-color: #F5F5F5;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.market-container{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 130px;
+}
+
+.market-logo-container{
+  background-color: white; 
+  border-radius: 7px; 
+  /* padding: 25px 15px 25px 15px;  */
+  /* margin: 18px 25px 18px 18px;  */
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  /* height: 300px;  */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#market-logo{
+  /* width: 20rem;  */
+  width: 100%;
+  height: fit-content;
+  /* margin-top: 77px;
+  margin-left: 12px; */
+  border-radius: 5px;
+}
+
+#market-header{
+  font-size: 57px;
+}
+
+.green-btns{
+  font-size: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 375px){
+  .get-early-btns{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .green-btns{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+.green-btns:hover{
+  background-color: #0B0249;
+  text-decoration: none;
+  color: white;
+}
+
+.get-early-btns{
+  font-size: 14px;
+  background-color: #0B0249;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.get-early-btns:hover{
+  background-color: #5cc9ca;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-banner-container{
+  padding: 0px;
+  color: white;
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+}
+#banner-header{
+  color: white;
+  padding: 65px 65px 0 45px;
+  /* padding: 75px; */
+  font-size: 60px;
+}
+
+.contact-infos-h{
+    font-size: 20px;
+}
+
+.contact-form-container{
+  padding: 40px;
+  background-image: linear-gradient(to bottom right, #5cc9ca, #0B0249);
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .healthworker-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .market-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #contact-detail-row{
+    padding: 0 15px;
+  }
+}
+
+
+.solution-links{
+  text-decoration: none;
+}
+.solution-links:hover{
+  text-decoration: none;
+}
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
+.fluid-containers{
+  padding: 0px 70px;
+}
+
+.nav-fluid-container{
+  padding: 0px 120px;
+}
+
+@media (max-width: 576px) {
+   
+  h1 {
+    color: #02014f;
+    letter-spacing: 0.4px;
+    font-size: 30px;
+    font-family: "Gilroy ExtraBold";
+    text-align: left;
+    vertical-align: middle;
+  }
+  .fluid-containers{
+    padding: 0px 30px;
+  }
+
+  .nav-fluid-container{
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 320px){
+  
+  .healthhub-container{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #banner-header{
+    padding: 65px 65px 0 25px;
+  }
+  .list-text
+  {
+    font-size: 12px!important;
+  }
+
+  #market-header{
+    font-size: 30px;
+  }
+  .healthhub-container{
+    margin-bottom: 0;
+  }
+  p{
+    font-size: 15px;
+  }
+}
+
+.navbar-fixed-top.scrolled{
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  transition: background-color 100ms linear;
+}
+
+.mission{
+  background-color: rgba(78, 199, 197, 0.4);
+}
+.quote
+{
+  text-align: left;
+  font: italic normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #0B0249;
+  opacity: 1;
+}
+.subquote
+{
+text-align: left;
+font-size: 14px!important;
+font-style: italic;
+}
+.ourmission
+{
+  text-align: left;
+font-size: 60px;
+letter-spacing: 0px;
+color: #0B0249;
+opacity: 1;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+.checkcircle
+{
+  font-size: 17px; 
+  color: #5cc9ca;
+}
+.list-text
+{
+  font-size: 14px;
+}
+
+.contact-icon{
+  color: #5cc9ca;
+  font-size: 28px;
+}
+
+.about-text-container{
+  min-height: 305px;
+}
+
+
+.carousel .carousel-indicators li {  background-color: gray; }
+.carousel .carousel-indicators li.active { background-color: var(--dark); }
