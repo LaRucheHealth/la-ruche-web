@@ -177,6 +177,7 @@ footer.page-footer .footer-copyright {
   padding-right: 26px;
   text-align: center;
   vertical-align: top;
+  min-width: 200px;
 }
 .btn-ea
 {
