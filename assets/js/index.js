@@ -5,8 +5,6 @@ $(document).ready(function() {
     $('.video-btn').click(function() {
         $videoSrc = $(this).data( "src" );
     });
-    console.log($videoSrc);
-    console.log("Printed when document is ready")
       
       
     // when the modal is opened autoplay it  
