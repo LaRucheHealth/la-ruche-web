@@ -385,21 +385,9 @@ font-family:Roboto;
   margin-right: 25%;
 }
 
-.healthhub-container{
-  margin-top: 45px;
-  margin-bottom: 45px;
-  padding-top: 140px;
-  padding-bottom: 80px;
-}
 
-@media only screen and (max-width: 765px){
-  .healthhub-container{
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
+
+
 
 .sln-sect-container{
   padding: 0px;
@@ -448,19 +436,6 @@ font-family:Roboto;
   margin-bottom: 30px;
   /* height: 300px;  */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#market-logo{
-  /* width: 20rem;  */
-  width: 100%;
-  height: fit-content;
-  /* margin-top: 77px;
-  margin-left: 12px; */
-  border-radius: 5px;
-}
-
-#market-header{
-  font-size: 57px;
 }
 
 .green-btns{
@@ -604,12 +579,6 @@ opacity:1;
 
 @media (max-width: 320px){
   
-  .healthhub-container{
-    margin-top: 45px;
-    margin-bottom: 45px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   #banner-header{
     padding: 65px 65px 0 25px;
   }
@@ -621,16 +590,13 @@ opacity:1;
   #market-header{
     font-size: 30px;
   }
-  .healthhub-container{
-    margin-bottom: 0;
-  }
   p{
     font-size: 15px;
   }
 }
 
 .navbar-fixed-top.scrolled{
-  background-color: rgba(255,255,255,0.1);
+  background-color: white;
   backdrop-filter: blur(10px);
   transition: background-color 100ms linear;
 }
@@ -686,3 +652,8 @@ opacity: 1;
 
 .carousel .carousel-indicators li {  background-color: gray; }
 .carousel .carousel-indicators li.active { background-color: var(--dark); }
+
+#healthhub_container
+{
+  padding-top: 140px;
+}
