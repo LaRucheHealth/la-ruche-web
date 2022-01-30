@@ -64,11 +64,7 @@ p{
   color: #02014f !important;
   text-align: center;
 }
-.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
-.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
-  background-color: initial;
-  font-weight: 500;
-}
+
 .learn-more {
   color: white !important;
   background-color: #5cc9ca;
@@ -288,31 +284,7 @@ font-family:Roboto;
 
 }
 
-@media only screen and (max-width: 991px) {
-    .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: center;
-    list-style: none;
-    border: 0px;
-    background-color: #fff;
-    background-clip: padding-box;
 
-}
-  .navbar .dropdown-menu {
-    position: relative!important;
-
-}
-}
 @media only screen and (max-width: 1200px) {
   .nav-link 
   {
@@ -595,10 +567,8 @@ opacity:1;
   }
 }
 
-.navbar-fixed-top.scrolled{
+.navbar{
   background-color: white;
-  backdrop-filter: blur(10px);
-  transition: background-color 100ms linear;
 }
 
 .mission{
@@ -656,4 +626,13 @@ opacity: 1;
 #healthhub_container
 {
   padding-top: 140px;
+}
+
+
+@media (max-width: 992px){
+  nav-fluid-container 
+  {
+    padding: 0px;
+  }
+
 }
