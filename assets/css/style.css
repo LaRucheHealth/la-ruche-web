@@ -607,6 +607,17 @@ opacity: 1;
 {
   font-size: 13px;
 }
+.for
+{
+  font-size: 14px;
+  color: #5cc9ca;
+  position: absolute;
+  bottom:0;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
 
 .contact-icon{
   color: #5cc9ca;
