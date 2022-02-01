@@ -64,11 +64,7 @@ p{
   color: #02014f !important;
   text-align: center;
 }
-.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
-.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
-  background-color: initial;
-  font-weight: 500;
-}
+
 .learn-more {
   color: white !important;
   background-color: #5cc9ca;
@@ -173,11 +169,11 @@ footer.page-footer .footer-copyright {
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
   font-size: 16px;
-  padding-left: 26px;
+  padding-left:26px;
   padding-right: 26px;
   text-align: center;
   vertical-align: top;
-  min-width: 200px;
+  width: 200px;
 }
 .btn-ea
 {
@@ -288,31 +284,7 @@ font-family:Roboto;
 
 }
 
-@media only screen and (max-width: 991px) {
-    .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: center;
-    list-style: none;
-    border: 0px;
-    background-color: #fff;
-    background-clip: padding-box;
 
-}
-  .navbar .dropdown-menu {
-    position: relative!important;
-
-}
-}
 @media only screen and (max-width: 1200px) {
   .nav-link 
   {
@@ -385,21 +357,9 @@ font-family:Roboto;
   margin-right: 25%;
 }
 
-.healthhub-container{
-  margin-top: 45px;
-  margin-bottom: 45px;
-  padding-top: 140px;
-  padding-bottom: 80px;
-}
 
-@media only screen and (max-width: 765px){
-  .healthhub-container{
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
+
+
 
 .sln-sect-container{
   padding: 0px;
@@ -422,7 +382,8 @@ font-family:Roboto;
   vertical-align: top;
 }
 
-.healthworker-container{
+.test{
+  
   background-color: #F5F5F5;
   padding-top: 140px;
   padding-bottom: 140px;
@@ -448,19 +409,6 @@ font-family:Roboto;
   margin-bottom: 30px;
   /* height: 300px;  */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#market-logo{
-  /* width: 20rem;  */
-  width: 100%;
-  height: fit-content;
-  /* margin-top: 77px;
-  margin-left: 12px; */
-  border-radius: 5px;
-}
-
-#market-header{
-  font-size: 57px;
 }
 
 .green-btns{
@@ -581,6 +529,7 @@ opacity:1;
 
 .nav-fluid-container{
   padding: 0px 120px;
+  background-color: white;
 }
 
 @media (max-width: 576px) {
@@ -604,35 +553,20 @@ opacity:1;
 
 @media (max-width: 320px){
   
-  .healthhub-container{
-    margin-top: 45px;
-    margin-bottom: 45px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   #banner-header{
     padding: 65px 65px 0 25px;
-  }
-  .list-text
-  {
-    font-size: 12px!important;
   }
 
   #market-header{
     font-size: 30px;
-  }
-  .healthhub-container{
-    margin-bottom: 0;
   }
   p{
     font-size: 15px;
   }
 }
 
-.navbar-fixed-top.scrolled{
-  background-color: rgba(255,255,255,0.1);
-  backdrop-filter: blur(10px);
-  transition: background-color 100ms linear;
+.navbar{
+  background-color: white;
 }
 
 .mission{
@@ -671,7 +605,18 @@ opacity: 1;
 }
 .list-text
 {
+  font-size: 13px;
+}
+.for
+{
   font-size: 14px;
+  color: #5cc9ca;
+  position: absolute;
+  bottom:0;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .contact-icon{
@@ -686,3 +631,17 @@ opacity: 1;
 
 .carousel .carousel-indicators li {  background-color: gray; }
 .carousel .carousel-indicators li.active { background-color: var(--dark); }
+
+#healthhub_container
+{
+  padding-top: 140px;
+}
+
+
+@media (max-width: 992px){
+  nav-fluid-container 
+  {
+    padding: 0px;
+  }
+
+}
