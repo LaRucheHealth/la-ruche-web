@@ -24,6 +24,23 @@ $(document).ready(function() {
         $("#video").attr('src',$videoSrc); 
     }) 
         
+      // when the modal is opened autoplay it  
+      $('#myModal2').on('shown.bs.modal', function (e) {
+        
+        // set the video src to autoplay and not to show related video. 
+        this.querySelector('video').play();
+        $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+        })
+          
+        
+        
+        // stop playing the  video when I close the modal
+        $('#myModal2').on('hide.bs.modal', function (e) {
+            // a poor man's stop video
+            this.querySelector('video').pause();
+            $("#video").attr('src',$videoSrc); 
+        }) 
+            
         
     
     
@@ -41,3 +58,5 @@ $(".solution-links").click(function(){
         'linear'
       )
 })
+
+
