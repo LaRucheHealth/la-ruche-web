@@ -192,7 +192,7 @@ footer.page-footer .footer-copyright {
 }
 .profile {
   border-radius: 50%;
-  height: 250px;
+  height: 260px;
   width: 250px;
 }
 .form-control:focus {
@@ -256,7 +256,7 @@ font-family:Roboto;
     /* max-height: 450px; */
     width: 100%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .social-links-div
 {
     margin-left: 0rem;
@@ -646,4 +646,8 @@ opacity: 1;
     padding: 0px;
   }
 
+}
+#sub
+{
+  color: white!important;
 }
