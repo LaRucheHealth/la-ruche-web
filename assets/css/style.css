@@ -512,16 +512,13 @@ font-family:Roboto;
 position:relative;
 padding:0px;
 }
-.close {
-position:absolute;
-right:-30px;
-top:0;
-z-index:999;
-font-size:2rem;
-font-weight: normal;
-color:#fff;
-opacity:1;
+
+.close
+{
+  font-size: 2.5rem;
+  color: #02014f!important;
 }
+
 
 .fluid-containers{
   padding: 0px 70px;
@@ -650,4 +647,38 @@ opacity: 1;
 #sub
 {
   color: white!important;
+}
+.outline
+{
+  border:2px solid #5cc9ca;
+  background-color: white;
+  color: #5cc9ca;
+  font-size: 12px;
+}
+.outline:hover
+{
+  border:2px solid #5cc9ca;
+  background-color: white;
+  color: #5cc9ca;
+  font-size: 12px;
+}
+.outline-2
+{
+  text-transform: none;
+  font-size: 12px;
+}
+.backchev
+{
+  font-size: 1.5rem;
+  color: #5cc9ca;
+}
+.stats
+{
+  background-color: #F5F5F5;;
+  color: #02014f!important;
+  font-weight: bold;
+  width: 15%!important;
+  display: inline;
+  text-overflow:ellipsis;
+  border: 0;
 }

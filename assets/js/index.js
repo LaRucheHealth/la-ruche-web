@@ -60,3 +60,22 @@ $(".solution-links").click(function(){
 })
 
 
+$('#sign').on('click', function() {
+    $('#sign1').modal('show');
+});
+$('#next').on('click', function() {
+    $('#sign1').modal('hide');
+    $('#sign2').modal('show');
+});
+$('#next2').on('click', function() {
+    $('#sign2').modal('hide');
+    $('#sign3').modal('show');
+});
+$('#back').on('click', function() {
+    $('#sign2').modal('hide');
+    $('#sign1').modal('show');
+});
+$('#back2').on('click', function() {
+    $('#sign3').modal('hide');
+    $('#sign2').modal('show');
+});
