@@ -682,3 +682,9 @@ opacity: 1;
   text-overflow:ellipsis;
   border: 0;
 }
+.backchev:hover
+{
+  font-size: 1.5rem;
+  color: #02014f;
+  cursor: pointer;
+}
