@@ -688,3 +688,14 @@ opacity: 1;
   color: #02014f;
   cursor: pointer;
 }
+.inline
+{
+  display: inline!important;
+}
+.content {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
