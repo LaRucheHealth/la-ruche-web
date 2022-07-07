@@ -234,6 +234,11 @@ font-family:Roboto;
   color: white;
   font-size: 25px;
 }
+.hidden
+{
+    display: none!important;
+    visibility: hidden;
+}
 .after-submit
 {
     display: none;
@@ -290,6 +295,10 @@ font-family:Roboto;
   {
     font-size: 0.7rem;
   }
+}
+#tablet-svg
+{
+  transform: scale(1.5)
 }
 
 .solutions-container{
@@ -698,4 +707,10 @@ opacity: 1;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+}
+.max
+{
+  height: 100%;
+  width: 100%;
+  min-height: 385px!important;
 }
