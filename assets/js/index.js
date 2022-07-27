@@ -79,3 +79,29 @@ $('#back2').on('click', function() {
     $('#sign3').modal('hide');
     $('#sign2').modal('show');
 });
+
+$('#how').on('click', function() {
+    $('#howwork').modal('show');
+});
+$('#chowwork').on('click', function() {
+    $('#howwork').modal('hide');
+});
+
+
+$('#ohowwork2').on('click', function() {
+    $('#howwork2').modal('show');
+    $('#howwork').modal('hide');
+});
+$('#chowwork2').on('click', function() {
+    $('#howwork').modal('show');
+    $('#howwork2').modal('hide');
+});
+$('#ohowwork3').on('click', function() {
+    $('#howwork3').modal('show');
+    $('#howwork2').modal('hide');
+});
+
+$('#chowwork3').on('click', function() {
+    $('#howwork3').modal('hide');
+    $('#howwork2').modal('show');
+});

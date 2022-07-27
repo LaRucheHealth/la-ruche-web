@@ -714,3 +714,28 @@ opacity: 1;
   width: 100%;
   min-height: 385px!important;
 }
+
+.not-ready:hover
+{
+  background-color: grey;
+  border: 0px;
+  color: white;
+}
+.badge
+{
+  width: 100%;
+  background-color: #5cc9ca!important;
+
+}
+.badge-inactive
+{
+  background-color: #F3F7FA!important;
+}
+.backgrey
+{
+  color: #F3F7FA!important;
+}
+.backblue
+{
+  color: #5cc9ca!important;
+}
