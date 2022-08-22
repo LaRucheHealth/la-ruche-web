@@ -47,7 +47,7 @@ $(document).ready(function() {
       
       
     // document ready  
-    });
+});
 
 $(".solution-links").click(function(){
     $('html, body').animate(
@@ -104,4 +104,38 @@ $('#ohowwork3').on('click', function() {
 $('#chowwork3').on('click', function() {
     $('#howwork3').modal('hide');
     $('#howwork2').modal('show');
+});
+
+
+var $owl = $('.owl-carousel');
+
+$owl.children().each( function( index ) {
+  $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
+});
+
+$owl.owlCarousel({
+  center: true,
+  loop: true,
+  items: 3,
+  responsive: {
+    0: {
+        items: 2,
+    },
+    568: {
+        items: 3,
+    },
+    768: {
+        items: 4,
+    },
+    1024: {
+        items: 3,
+    }
+}
+
+});
+
+$(document).on('click', '.owl-item>div', function() {
+  // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
+  var $speed = 300;  // in ms
+  $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
 });

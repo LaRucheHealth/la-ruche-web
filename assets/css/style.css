@@ -739,3 +739,41 @@ opacity: 1;
 {
   color: #5cc9ca!important;
 }
+
+
+
+
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 6% 8%;
+  transition: margin 0.4s ease;
+}
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+.owl-item:not(.center) > div:hover {
+  opacity: .75;
+}
+
+.mowl{
+  width: 70% !important;
+  margin-inline: auto;
+
+}
+
+.car-img{
+  width: min(100%,230px);
+  outline: 1px solid black;
+  display: grid;
+  place-items: center;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.car-img img{
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
