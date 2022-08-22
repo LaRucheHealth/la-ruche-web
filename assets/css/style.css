@@ -715,6 +715,12 @@ opacity: 1;
   min-height: 385px!important;
 }
 
+.ready:hover{
+  background-color: #5cc9ca;
+  border: 0px;
+  color: white;
+}
+
 .not-ready:hover
 {
   background-color: grey;
