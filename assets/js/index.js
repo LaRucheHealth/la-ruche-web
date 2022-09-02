@@ -105,3 +105,71 @@ $('#chowwork3').on('click', function() {
     $('#howwork3').modal('hide');
     $('#howwork2').modal('show');
 });
+
+
+
+
+
+
+$('#n1').on('click', function() {
+    
+    $("#p1").fadeOut(500);
+    $("#p2").delay(600).fadeIn(500);
+    $("#n1").addClass("hidden");
+    $("#n2").removeClass("hidden");
+
+
+});
+
+$('#n2').on('click', function() {
+    
+    $("#p2").fadeOut(500);
+    $("#p3").delay( 600 ).fadeIn(500);
+    $("#n2").addClass("hidden");
+    $("#n3").removeClass("hidden");
+    $("#b1").addClass("hidden");
+    $("#b2").removeClass("hidden");
+});
+
+$('#n3').on('click', function() {
+    
+    $("#p3").fadeOut(500);
+    $("#p4").delay( 600 ).fadeIn(500);
+    $("#b2").addClass("hidden");
+    $("#b3").removeClass("hidden");
+
+});
+
+$('#b1').on('click', function() {
+    
+    $("#p2").fadeOut(500);
+    $("#p1").delay( 600 ).fadeIn(500);
+    $("#n2").addClass("hidden");
+    $("#n1").removeClass("hidden");
+    
+
+});
+
+$('#b2').on('click', function() {
+    
+    $("#p3").fadeOut(500);
+    $("#p2").delay( 600 ).fadeIn(500);
+    $("#n3").addClass("hidden");
+    $("#n2").removeClass("hidden");
+    $("#b2").addClass("hidden");
+    $("#b1").removeClass("hidden");
+    
+
+});
+
+
+$('#b3').on('click', function() {
+    
+    $("#p4").fadeOut(500);
+    $("#p3").delay( 600 ).fadeIn(500);
+    $("#b3").addClass("hidden");
+    $("#b2").removeClass("hidden");
+    
+
+});
+

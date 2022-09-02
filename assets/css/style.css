@@ -745,3 +745,19 @@ opacity: 1;
 {
   color: #5cc9ca!important;
 }
+.testbox
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fa-chevron-right
+{
+  position: absolute;
+  top:50%;
+  color: #02014f!important;
+}
+.fa-chevron-left
+{
+  position: absolute;
+  top:50%;
+  color: #02014f!important;
+}
