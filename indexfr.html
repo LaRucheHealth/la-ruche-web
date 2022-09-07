@@ -4,12 +4,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="facebook-domain-verification" content="lnskpu1m3w0u0k7akfj6puvdugdjsl" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <!-- Custom CSS styling -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/favicon/apple-touch-icon.png" />
@@ -26,137 +28,552 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){​​​​​​​dataLayer.push(arguments);}​​​​​​​
       gtag('js', new Date());
-    
-    
       gtag('config', 'UA-203161402-1');
     </script>
-    
-    
   </head>
-
   <body>
-    <div class="container">
-      <!--Navbar -->
-     <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0">
-        <a class="navbar-brand" href="/"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="50" /></a>
+      <div class="container-fluid nav-fluid-container sticky-top navbar-fixed-top">
+        <!--Navbar -->
+      <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0 " >
+        <a class="navbar-brand" href="/"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="50"   /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                
-              <a class="nav-link px-3" href="indexfr.html">Accueil</a>
+      
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#solutions-container">Solutions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="aboutfr.html">À Propos</a>
+              <a class="nav-link px-3" href="about.html">À propos</a>
             </li>
-             <li class="nav-item">
-              <a class="nav-link px-3" href="solutionsfr.html">Solutions</a>
+          
+            <li class="nav-item">
+              <a class="nav-link px-3" href="mission.html">Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="prouductsfr.html">Produits</a>
+              <a class="nav-link px-3" href="http://21799627.hs-sites.com/blogs" target="_blank">Blog</a>
             </li>
              <li class="nav-item px-3">
-              <a href="contactfr.html" class="nav-link">Contact</a>
+              <a href="contact.html" class="nav-link">Contacter</a>
             </li>
-      <li class="nav-item dropdown mr-3">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Langue
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="index.html">Anglais</a>
-        </div>
-      </li>
       <li class="nav-item">
-              <a class="nav-link  learn-more nav-learn" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+              <a class="nav-link   learn-more nav-learn green-btns" id="sign" > S’inscrire</a>
+
             </li>
           </ul>
         </div>
       </nav>
       <!--/.Navbar -->
-      <div class="section">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-              <h1 class="my-4">Solutions de santé numériques</h1>
-              <p>La Ruche Health est une startup technologique qui construit des solutions numériques progressives pour faciliter la prestation des soins et permettre aux bénéficiaires de soins de santé d'atteindre des résultats de santé équitables.</p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 mb-5">
-                <img class="img-fluid" alt="Patient Profile Mockup"  src="assets/imgs/mockup-stacked.png" />
-          </div>
-        </div>
-          <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4 ">
-            <div class="circle text-center my-3"><img class="alignment" alt="System Icon" src="assets/imgs/Icons/system.svg"></div>
-            <h4 class="my-3 text-center">Numériser</h4>
-            <p class="text-center">
-           Nous renforçons la gestion des données de santé au sein des établissements médicaux en proposant une solution de dossiers médicaux électroniques intuitive et basée sur le Web qui permet aux agents de santé de fournir des services ambulatoires essentiels avec un effort d'apprentissage minimal.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 ">
-            <div class="circle text-center my-3"><img class="alignment" alt="Heartbeat Icon" src="assets/imgs/Icons/heartbeat.svg"></div>
-            <h4 class="my-3 text-center">Connecter</h4>
-            <p class="text-center">
-              Nous augmentons la sensibilisation et l’accès des bénéficiaires de soins de santé aux services de santé fondamentaux en encourageant l’utilisation d’un portail pour les patients pour une expérience améliorée chaque fois qu’ils entrent en contact avec le réseau de santé
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 mb-5 ">
-            <div class="circle text-center my-3"><img class="alignment" alt="patient Icon" src="assets/imgs/Icons/patient.svg"></div>
-                 <h4 class="my-3 text-center">Standardiser</h4>
-                 <p class="text-center">Nous introduisons la transparence et l'efficacité grâce à un service de facturation qui aide les établissements médicaux à éviter les perte de revenus ainsi qu'à suivre et résoudre les réclamations d'assurance maladie</p>
-          </div>
-        </div>
-        <h2 class="text-center my-5">Nos Produits</h2>
-               <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-1">
-                     <img src="assets/imgs/health-portal.png" class="img-fluid " alt="Health Portal">
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-2 mt-5">
-                     <h3 class="text-left my-5">Portail des Agents de Santé</h3>
-                     <p class="text-left">Une application Web progressive (EMR) avec des capacités hors ligne, des interfaces utilisateur axées sur une conception centrée sur l’interaction humaine sur ordinateur, tablette ou téléphone qui rendent la solution vraiment accessible quelles que soient la technologie ou les limitations d'infrastructure.
-                     </p>
-                  </div>
-               </div>
-        <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-2 order-md-1 order-sm-1">
-                     <img src="assets/imgs/patient-portal.png" class="img-fluid" alt="Patient Portal">
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-1 order-md-2 order-sm-2 mt-5">
-                     <h3 class=" text-left my-5">Portail des Patients</h3>
-                     <p class="text-left">
-                         Un portail patient disponible gratuitement conçu pour stimuler l'engagement des patients et fournir aux patients un accès à un contenu de santé pertinent et à des services de soins préventifs grâce à des partenaires qui partagent notre vision de rendre la santé accessible et de meilleure qualité pour tous.
-                     </p>
-                  </div>
-               </div>
-                <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-1">
-                     <img src="assets/imgs/Icons/telehealth-portal.svg" class="img-fluid " alt="Telehealth Portal">
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-2 mt-5">
-                     <h3 class="text-left my-5">Télésanté</h3>
-                     <p class="text-left">Fonctionnalités intégrées de consultation électronique pour étendre la portée des praticiens aux communautés éloignées autrement coupées du réseau de santé plus large et aider à réduire l'impact des faibles ratios médecins-patients dans les communautés que nous servons.
-                     </p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-2 order-md-1 order-sm-1">
-                     <img src="assets/imgs/healthdata.png" class="img-fluid" alt="Health Data Insights">
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 order-lg-1 order-md-2 order-sm-2 mt-5">
-                     <h3 class=" text-left my-5">Informations sur les données de santé</h3>
-                     <p class="text-left">
-                     Les points principaux de données spécifiques aux applications et à la santé transformés en informations analytiques (données brutes et rapports personnalisés) signifient que notre solution peut permettre aux administrateurs, aux dirigeants et aux autres partis prenants de prendre des décisions avec le bénéfice de ses données
-                     </p>
-                  </div>
-               </div>
       </div>
-     </div>
-    <div class="section">
+      <div class="section">
+      <div class="container-fluid fluid-containers">
+        <div class="row justify-content-md-center" >
+          <div class="col-sm-12 col-md-12 col-lg-4 justify-content-center align-self-center" style="padding: 0px;">
+              <h1 class="my-4">La Santé Ré Imaginé</h1> 
+              <button type="button "  id = "how" class="btn  outline-2 mb-4">Comment ça fonction</button>
+              <p>Transformer la façon dont 1,4 milliard de personnes utilisent les services de santé grâce à des points de contact conviviaux pour les patients.</p>
+            <div class="container sln-sect-container" >
+              <div class="container">
+                <div class="row">
+                    <div class=" col-sm-4">
+                        <img src="assets/imgs/200.png"  class="img-responsive content"   > 
+                    </div>
+                    <div class=" col-sm-4 mt-1">
+                        <img src="assets/imgs/75.png"  class="img-responsive content">
+                    </div>
+                    <div class=" col-sm-4">
+                      <img src="assets/imgs/44.png"  class="img-responsive content"   >
+                    </div>          
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-7 mb-5" style="padding: 0px;">
+                <img class="img-fluid" alt="Patient Profile Mockup"  src="assets/imgs/tablet+phone.png" />
+          </div>
+          
+        </div>
+      </div>
+      <h3 class="text-center pt-5">Des partenaires</h3>
+      <div class="row pt-5 pb-5 justify-content-center">
+        <div class="col-lg-2 col-md-4 align-self-center col-sm-4 my-3">
+          <img src ="assets/imgs/addis.png"  class="img-fluid">
+        </div>
+          <div class="col-lg-2 col-md-4 align-self-center col-sm-4 my-3">
+            <img src="assets/imgs/usaid-logo.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 align-self-center col-sm-4">
+            <img src ="assets/imgs/uc.jpeg"  class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4  col-sm-4  my-3">
+            <img src ="assets/imgs/gfs.png" class="img-fluid">
+          </div>
+     
+        <!-- <div class="col-3 text-center">
+          <i class="fas fa-chevron-left  fa-3x" id="b1"></i>
+          <i class="fas fa-chevron-left  fa-3x hidden" id="b2"></i>
+          <i class="fas fa-chevron-left  fa-3x hidden" id="b3"></i>
+        </div>
+        <div class="col-6  testbox py-5  " id="p1">
+           <div class="col-lg-4 offset-lg-4 col-md-12">
+            <img src="assets/imgs/addis.png" class="img-fluid">
+          </div>
+           </div>
+           <div class="col-6  testbox py-5" style="display:none" id="p2">
+            <div class="col-lg-6 offset-lg-3 col-md-12">
+             <img src="assets/imgs/google.png" class="img-fluid">
+           </div>
+            </div>
+
+            <div class="col-6  testbox py-5" style="display:none" id="p3">
+              <div class="col-lg-6 offset-lg-3 col-md-12">
+               <img src="assets/imgs/usaid-logo.png" class="img-fluid">
+             </div>
+              </div>
+              <div class="col-6  testbox py-5" style="display:none" id="p4">
+                <div class="col-lg-6 offset-lg-3 col-md-12">
+                 <img src="assets/imgs/uc.jpeg" class="img-fluid">
+               </div>
+                </div>
+    
+           <div class="col-3 text-center" >
+            <i class="fas fa-chevron-right  fa-3x" id="n1"></i>
+            <i class="fas fa-chevron-right  fa-3x hidden" id="n2"></i>
+            <i class="fas fa-chevron-right  fa-3x hidden" id="n3"></i>
+          </div> -->
+      </div>
+        <div class="solutions-container" id="solutions-container">
+          <h3 class="text-center my-5">Our Solutions</h3>
+          <div class="container" >
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-12 col-lg-3 solutions-btn-container">
+                <a href="#healthworker_container" class="solution-links">
+                  <div class="text-center my-3"><img class="alignment" id="tablet-svg" alt="EMR tablet Icon" src="assets/imgs/Icons/EMR-SVG.svg " ></div>
+                  <h4 class="my-3 text-center">DME</h4>
+                  <p class="text-center">
+                    We send more patients to your facility through the power of Whatsapp, the most popular instant messaging platform, as our AI powered digital health app guides you through virtual or in-person consultation.
+                  </p>
+                  <div >
+                    <p class="text-center for" >Pour les cliniques</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-3 solutions-btn-container" >
+                <a href="#healthhub_container" class="solution-links">
+                  <div class="text-center my-3"><img class="alignment" id="mobile-svg" alt="Mobile Icon" src="assets/imgs/Icons/Health Hub-SVG.svg"></div>
+                  <h4 class="my-3 text-center">Centre de Santé</h4>
+                  <p class="text-center">
+                    Manage your personal health data with grant/revoke privileges, find medical specialists and access affordable community health financing schemes.
+                  </p>
+                  <div >
+                    <p class="text-center for" >Pour les patients</p>
+                  </div>
+                </a>   
+              </div>
+              
+              <div class="col-sm-12 col-md-12 col-lg-3 solutions-btn-container">
+                <a href="#market_container" class="solution-links">
+                  <div class="text-center my-3"><img class="alignment" id="market-svg" alt="patient Icon" src="assets/imgs/Icons/Maarket Place-SVG.svg"></div>
+                  <h4 class="my-3 text-center">Marketplace</h4>
+                  <p class="text-center">Promote products & services on a dedicated wellness marketplace, increase your reach and engagement more with your customers.</p>
+                  <div><p class="text-center for" >Pour les fournisseurs </p></div>
+                </a>     
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="container">
+          <div class="row justify-content-center" id="healthhub_container">
+            <div class="col-sm-12 col-md-12 col-lg-7 justify-content-center align-self-center healthhub-container">
+               <h1 class="text-left mb-3 ">Centre de Santé</h1>
+               <p class="text-left" style="margin-bottom: 0px;">Organisez les dossiers médicaux et accordez/révoquez instantanément l'accès grâce au partage sécurisé. Connectez-vous facilement aux équipes de soins primaires via la messagerie instantanée (Whatsapp et Facebook) et sur notre marché du bien-être. Gagnez des points pour obtenir des récompenses, comme des produits d'assurance santé à prix réduit par abonnement.
+
+               </p>
+               <h1 style="font-size: 18px; margin-top: 15px;">Caractéristiques principales</h1>
+               <div class="row">
+                <div class="col-xs-12  col-sm-6">
+                  <i class="bi bi-check2-circle d-inline mx-1 my-2 checkcircle" ></i>
+                  <p class="d-inline list-text" style="font-size: 14px;">Appropriation de vos données de santé              </p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p  class="d-inline list-text">Partage et traduction des dossiers </p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">Connexion/Raccordement rapide aux cliniques</p>
+                 </div>
+                 <div class=" col-xs-12 col-sm-6 ">
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">Trouver des pharmacies à proximité
+                  </p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p  class="d-inline list-text">Trouver des centres d'examen</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">Access community health financing</p>
+                  <br>
+            
+                 </div>
+               </div>
+              
+              
+                <button type="button" class="btn my-3 py-2" href="#" data-toggle="modal" data-src="assets/imgs/health-hub.mp4" data-target="#myModal2">Vidéo de promotion</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ3RarGJQT_Jlhua5Kx9xxJh8wlZ5gEUwEUXJEPE4kXTodg/viewform?usp=sf_link" target="_blank"><button type="button" class="btn btn-ea my-3 py-2">Accès anticipé</button></a>
+  
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 mt-5 justify-content-center align-self-center">
+              <img src="assets/imgs/Iphone Mockups-croped.png" class="img-fluid " alt="Health Portal">
+            </div>
+         </div>
+        </div>
+        <div class="modal fade" id="howwork" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-4 offset-4 mt-5" >
+                      <img src="assets/imgs/full-logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 text-right px-4 py-4">
+                      <i class="fas fa-times fa-lg " data-dismiss="modal"></i>
+                    </div>
+                    <div class="col-12 my-3">
+
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-active ml-1 "> </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-inactive"> </div>
+                    </div>
+                    <div class="col-4  mb-5" >
+                      <div class="badge badge-secondary badge-inactive  mr-1"> </div>
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-left fa-2x backblue" id="chowwork"></i>
+                    </div>
+                    <div class="col-6">
+                      <img src="assets/imgs/text.png" class="img-fluid">
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-right fa-2x backblue " id="ohowwork2"></i>
+                    </div>
+                    <div class="col-12 text-center py-5">
+                      <h4>Connecting patients with clinics via instant messaging apps</h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="modal fade" id="howwork2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-4 offset-4 mt-5" >
+                      <img src="assets/imgs/full-logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 text-right px-4 py-4">
+                      <i class="fas fa-times fa-lg " data-dismiss="modal"></i>
+                    </div>
+                    <div class="col-12 my-3">
+
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-inactive ml-1 "> </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-active"> </div>
+                    </div>
+                    <div class="col-4  mb-5" >
+                      <div class="badge badge-secondary badge-inactive  mr-1"> </div>
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-left fa-2x backblue" id="chowwork2"></i>
+                    </div>
+                    <div class="col-6">
+                      <img src="assets/imgs/cuate.png" class="img-fluid">
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-right fa-2x backblue "  id="ohowwork3"></i>
+                    </div>
+                    <div class="col-12 text-center py-5">
+                      <h4>Clinics assess your needs</h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+    
+
+
+        <div class="modal fade" id="howwork3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-4 offset-4 mt-5" >
+                      <img src="assets/imgs/full-logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 text-right px-4 py-4">
+                      <i class="fas fa-times fa-lg " data-dismiss="modal"></i>
+                    </div>
+                    <div class="col-12 my-3">
+
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-inactive ml-1 "> </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                      <div class="badge badge-secondary badge-inactive"> </div>
+                    </div>
+                    <div class="col-4  mb-5" >
+                      <div class="badge badge-secondary badge-active  mr-1"> </div>
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-left fa-2x backblue" id="chowwork3"></i>
+                    </div>
+                    <div class="col-6">
+                      <img src="assets/imgs/amico.png" class="img-fluid">
+                    </div>
+                    <div class="col-3 text-center mt-5 pt-5">
+                      <i class="fas fa-chevron-right fa-2x backblue "></i>
+                    </div>
+                    <div class="col-12 text-center py-5">
+                      <h4>Virtual or in person consultations</h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+
+<div class="modal fade" id="sign1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 d-none d-md-block">
+            <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-12 mb-5">
+              <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+          </div>
+            <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none ">
+              <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+            </div>
+            <div class="col-12 text-center">
+              <div class="col-12">
+                <h3 class="text-center my-3">Select a Service</h3>
+              </div>
+             <div class="col-12">
+              <button type="button" onclick="window.open('https://forms.gle/cMVcBXmE8VU5482g9','_blank')" class="btn  outline ready" >Register your medical facility</button>
+             </div>
+            <div class="col-12">
+              <button type="button" class="btn  outline ready mb-5" id="next2">Connect to a primary care team</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- <div class="modal fade" id="sign2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 d-sm-none d-none d-md-block">
+            <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="col-12 mb-5">
+        
+              <i class="fas fa-chevron-left mt-3 backchev" id="back"></i>
+              <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+              </button>
+           
+          </div>
+            <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none ">
+              <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+            </div>
+            <div class="col-12 text-center">
+         
+             <div class="col-12">
+              <h3 class="text-center my-3">How would you like to use our service?</h3>
+             </div>
+             <div class="col-12">
+              <button type="button" class="btn  outline " id="next2">Connect to Clinic</button>
+             </div>
+           <div class="col-12">
+            <button type="button" class="btn  outline mb-5 not-ready"> Access Marketplace</button>
+           </div>
+           
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   -->
+
+<div class="modal fade" id="sign3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xxl" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 d-sm-none d-none d-md-block"  >
+            <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-12 mb-5">
+              <i class="fas fa-chevron-left mt-3 backchev" id="back2"></i>
+          <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </a>
+          </div>
+            <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none" >
+              
+              <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+            </div>
+            <div class="col-12 text-center d-block">
+             <div class="col12">
+              <h3 class="text-center my-3">What is you preferred platform?</h3>
+             </div>
+             <div class="col-12">
+              <button type="button" class="btn not-ready  outline "> Facebook Messenger</button>
+             </div>
+            <div   class="col-12">
+              <button type="button" class="btn  ready outline ">Whatsapp Chatbot</button>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn  not-ready outline mb-5"> Download App</button>
+            </div>
+          
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+
+        <div class="test">
+
+       
+        <div class="container">
+          <div class="row justify-content-center" id="healthworker_container">
+            <div class="col-sm-12 col-md-12 col-lg-5 mt-5 justify-content-center align-self-center  order-lg-1 order-2 ">
+              <img src="assets/imgs/Tablet_Pro_Side by Side.png" class="img-fluid " alt="Health Portal">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-7 justify-content-center align-self-center healthhub-container order-lg-2 order-1">
+              <h1 class="text-left mb-3">Portail des Cliniciens (DME)</h1>
+              <p class="text-left" style="margin-bottom: 0px;">Laissez-nous vous envoyer des patients par le biais d'une plateforme pratique, automatiser votre processus d'admission et faciliter les consultations virtuelles et physiques.
+              </p>
+               <h1 style="font-size: 18px; margin-top: 15px;">fonctions clés</h1>
+               <div class="row">
+                <div class=" col-xs-12 col-sm-6">
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text"> Numériser l'accueil des patients</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p  class="d-inline list-text">Prise en charge automatisée des patients</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">suivi des laboratoires et de la radiologie</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text"> programmation et facturation</p>
+                 </div>
+                 <div class=" col-xs-12 col-sm-6 ">
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">gestion des accès</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p  class="d-inline list-text">Rapports et renvois</p>
+                  <br>
+                  <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                  <p class="d-inline list-text">Anonymized monthly reports
+                  </p>
+                  <br>
+                 </div>
+               </div>
+              
+              
+                <button type="button" class="btn my-3 py-2" href="#" data-toggle="modal" data-src="assets/imgs/VID-20210610-WA0000.mp4" data-target="#myModal">Vidéo de promotion</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ3RarGJQT_Jlhua5Kx9xxJh8wlZ5gEUwEUXJEPE4kXTodg/viewform?usp=sf_link" target="_blank"><button type="button" class="btn btn-ea my-3 py-2" >GET EARLY ACCESS</button></a>
+                
+          
+            </div>
+          
+         </div>
+        </div>
+      </div>   
+               
+            <div class="container">
+              <div class="row justify-content-md-center market-container" id="market_container">
+                <div class="col-sm-12 col-md-12 col-lg-7 px-1 justify-content-center align-self-center">
+                   <h1 class="text-left mb-3">Marché du bien-être</h1>
+                   <p class="text-left" style="margin-bottom: 0px;">Faites la promotion de vos produits et services sur notre marché en tant que médecin certifié, professionnel du bien-être agréé ou pharmacie reconnue au niveau national. Augmentez votre audience, offrez des points de fidélité et créez une communauté autour de vos offres.</p>
+                   <h1 style="font-size: 18px; margin-top: 15px;">Caractéristiques principales</h1>
+
+                   <div class="row">
+                    <div class=" col-xs-12 col-sm-6 ">
+                      <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                      <p class="d-inline list-text" style="font-size: 14px;">Promouvoir les produits et services</p>
+                      <br>
+                      <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                      <p class="d-inline list-text">Proposer des consultations virtuelles</p>
+                     </div>
+                     <div class=" col-xs-12 col-sm-6">
+                      <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                      <p class="d-inline list-text">Accepter les réservations en ligne</p>
+                      <br>
+                      <i class="bi bi-check2-circle d-inline mx-1 my-3 checkcircle" ></i>
+                      <p  class="d-inline list-text">Stimuler l'engagement et la loyauté </p>
+                     </div>
+                   </div>
+                   <button type="button" class="btn my-3 py-2" href="#" data-toggle="modal" data-src="assets/imgs/health-hub.mp4" data-target="#myModal2">Vidéo de promotion</button>
+                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ3RarGJQT_Jlhua5Kx9xxJh8wlZ5gEUwEUXJEPE4kXTodg/viewform?usp=sf_link" target="_blank"><button type="button" class="btn my-3 py-2 btn-ea" href="#">SIGN UP NOW</button></a>
+                   
+                
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5 mb-5 justify-content-center align-self-center " style="background-color: #F5F5F5;">
+                  <div class="justify-content-center market-logo-container" >
+                    <img src="assets/imgs/doctor-with-tablet.jpg" class="img-fluid " id="market-logo" alt="Doctor img">
+                  </div>
+                  
+                  
+                </div>
+             </div>
+            </div>
+             
+      </div>
+
+    <div class="footer-section">
       <!-- Footer -->
       <footer class="page-footer font-small py-5 dark-blue">
-        <p class="text-center contact-head">Nous Contacter</p>
+        <p class="text-center contact-head">Contactez-nous</p>
         <p class="text-center contact-text">
-           Envie de vous associer avec nous? Entrer en contact!
+          Vous voulez vous associer à nous ? Prenez contact avec nous !
         </p>
         <p class="contact-details text-center">
            <i class="ml-3 mr-2 fas fa-envelope"></i><a class="contact-details" href="mailto:partners@laruche.health">partners@laruche.health</a>
@@ -165,9 +582,9 @@
       <!-- Footer -->
       <!-- Footer -->
      <footer class="page-footer font-small white pt-4">
-        <div class="container-fluid text-center text-md-left">
+        <div class="container-fluid text-center text-lg-left">
           <div class="row">
-            <div class="col-md-4 mt-md-0 mt-3 social-links-div">
+            <div class="col-lg-3 col-md-12 mt-md-3 mt-3 social-links-div">
               <img alt="Full size logo footer" src="assets/imgs/full-logo.png" width="130" />
               <br>
                  <a href="https://twitter.com/laruchehealth" target="_blank">
@@ -176,60 +593,157 @@
                  <a href="https://www.facebook.com/Laruchehealth-166686058318442" target="_blank">
                      <i class="fab fa-facebook-f ml-4 mx-2 social-links mt-5"></i>
                 </a>
+                <a href="https://wa.me/2250504783682" target="_blank">
+                  <i class="fab fa-whatsapp ml-4 mr-2 social-links mt-5"></i>
+              </a>
+              <a href="https://www.instagram.com/laruchehealth/" target="_blank">
+                <i class="fab fa-instagram ml-4 mr-2 social-links mt-5"></i>
+            </a>
                 <a href="https://www.linkedin.com/company/la-ruche-health/people/" target="_blank">
                     <i class="fab fa-linkedin ml-4 mr-2 social-links mt-5"></i>
                 </a>
+                <a href="https://medium.com/@partners_57032" target="_blank">
+                  <i class="fab fa-medium ml-4 mr-2 social-links mt-5"></i>
+              </a>
+                
             </div>
             <hr class="clearfix w-100 d-md-none pb-3" />
-            <div class="col-md-2 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading"> A Propos De Nous</h5>
+            <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">À propos de nous</h5>
               <ul class="list-unstyled">
                 <li>
-                    <a class="footer-links" href="solutionsfr.html">Notre Mission</a>
+                    <a class="footer-links" href="mission.html">Notre Mission</a>
                     <br>
-                    <a class="footer-links" href="aboutfr.html">Notre Histoire</a>
+                    <a class="footer-links" href="about.html">Notre histoire</a>
                     <br>
-                    <a class="footer-links" href="aboutfr.html#Team">L’Équipe</a>
+                    <a class="footer-links" href="teams.html">L’équipe</a>
                     <br>
-                    <a class="footer-links" href="advisory-boardfr.html">Conseil consultatif</a>
+                    <a class="footer-links" href="advisory-board.html">Conseil consultatif</a>
                 </li>
               </ul>
             </div>
-             <div class="col-md-2 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading">Produits</h5>
+             <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Solutions</h5>
               <ul class="list-unstyled">
-                  <li>
-                  <a class="footer-links" href="solutionsfr.html#solution">Solutions</a>
-                  </li>
                 <li>
-                  <a class="footer-links" href="prouductsfr.html#Health Worker Portal">DME</a>
+                  <a class="footer-links" href="#healthworker_container">dossiers médicaux électroniques</a>
+                </li>
+                <li>
+                  <a class="footer-links" href="#healthhub_container">Centre de Santé</a>
+                </li>
+                <li>
+                  <a class="footer-links" href="#market_container">Wellness marketplace</a>
                 </li>
               </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading">Nous Contacter</h5>
+            <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Contactez-nous</h5>
               <ul class="list-unstyled">
                   <li>
-                 <a class="footer-links mt-2" href="contactfr.html">Formulaire de Contact</a>
+                 <a class="footer-links mt-2" href="contact.html">Formulaire de contacte</a>
                 </li>
                 <li>
-                 <a class="footer-links mt-2" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+                 <a class="footer-links mt-2" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une réunion</a>
                 </li>
+                <li>
+                  <a class="footer-links mt-2" href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ3RarGJQT_Jlhua5Kx9xxJh8wlZ5gEUwEUXJEPE4kXTodg/viewform?usp=sf_link" target="_blank">Accès précoce</a>
+                 </li>
                 <li>
                  <a class="footer-links mt-2"  href="mailto:partners@laruche.health">partners@laruche.health</a>
                 </li>
               </ul>
             </div>
+
+            <!-- <div class=" col-lg-12 col-md-12 ">
+              <h5 class="text-uppercase footer-heading px-2 text-center">Partners</h5>
+             </div> 
+           <div class="col-lg-2 col-md-4 offset-lg-3  col-sm-4  my-3">
+            <img src ="assets/imgs/uc.jpeg"  class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4  my-3">
+              <img src ="assets/imgs/google.png" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4 my-3">
+              <img src ="assets/imgs/addis.png"  class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4 my-3">
+              <img src="assets/imgs/usaid-logo.png" class="img-fluid">
+            </div> -->
+            
+        
           </div>
         </div>
         <div class="footer-copyright text-center pt-3 pb-3">
           <hr />
-          <p class="tnc text-left pr-1">Conditions générales</p>
-          <p class="tnc text-right pl-1">© 2021 | Tous droits réservés</p>
+          <p class="tnc text-left pr-1">Terms & Conditions</p>
+          <p class="tnc text-right pl-1">©2021 | All rights reserved</p>
         </div>
       </footer>
     </div>
     <!-- Footer -->
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+    
+          
+          <div class="modal-body">
+    
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+    <!-- <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+    </div> -->
+
+      <div class="embed-responsive embed-responsive-16by9">    
+        <video  controls>
+        <source id="video" src="assets/imgs/VID-20210610-WA0000.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+        </video>
+      </div>   
+            
+            
+          </div>
+    
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+    
+          
+          <div class="modal-body">
+    
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+    <!-- <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+    </div> -->
+
+      <div class="embed-responsive embed-responsive-16by9">    
+        <video  controls>
+        <source id="video" src="assets/imgs/health-hub.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+        </video>
+      </div>   
+            
+            
+          </div>
+    
+        </div>
+      </div>
+    </div> 
+
+    
+
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -238,6 +752,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+    <!-- custom script -->
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/index.js"></script>
+     <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21799627.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21799627.js"></script>
+<!-- End of HubSpot Embed Code -->
   </body>
 
 </html>

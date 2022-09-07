@@ -4,10 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="facebook-domain-verification" content="lnskpu1m3w0u0k7akfj6puvdugdjsl" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
     <!-- Custom CSS styling -->
@@ -35,187 +37,381 @@
   </head>
 
   <body>
-    <div class="container">
+    
+    <div class="container-fluid nav-fluid-container sticky-top navbar-fixed-top">
       <!--Navbar -->
-      <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0">
-        <a class="navbar-brand" href="/"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="50" /></a>
+      <nav class="my-3 navbar navbar-expand-lg navbar-light z-depth-0 " >
+        <a class="navbar-brand" href="/"><img src="assets/imgs/full-logo.png" alt="Full size logo" height="50"   /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-                
-              <a class="nav-link px-3" href="indexfr.html">Accueil</a>
+      
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#solutions-container">Solutions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="aboutfr.html">À Propos</a>
+              <a class="nav-link px-3" href="about.html">À propos</a>
             </li>
-             <li class="nav-item">
-              <a class="nav-link px-3" href="solutionsfr.html">Solutions</a>
+          
+            <li class="nav-item">
+              <a class="nav-link px-3" href="mission.html">Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="prouductsfr.html">Produits</a>
+              <a class="nav-link px-3" href="http://21799627.hs-sites.com/blogs" target="_blank">Blog</a>
             </li>
-             <li class="nav-item px-3 active">
-              <a href="contactfr.html" class="nav-link">Contact</a>
+             <li class="nav-item px-3">
+              <a href="contact.html" class="nav-link">Contacter</a>
             </li>
-      <li class="nav-item dropdown mr-3">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Langue
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="contact.html">Anglais</a>
-        </div>
-      </li>
       <li class="nav-item">
-              <a class="nav-link  learn-more nav-learn" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+              <a class="nav-link   learn-more nav-learn green-btns" id="sign" > S’inscrire</a>
+
             </li>
           </ul>
         </div>
       </nav>
       <!--/.Navbar -->
-      <div class="section">
-        <div class="row">
+    </div>
+    
+      <div class="banner">
+        <div class=" contact-banner-container" style="background-image: url('assets/imgs/contact-page-banner.png');">
+          <h1 id="banner-header">Contacter</h1>
+        </div>
+       
+      </div>
+      <div class="container">
+      <div class="section" style="margin-top: 30px;">
+        <div class="row ">
           <div class="col-sm-12 col-md-12 col-lg-5 my-3">
-              <h1> Entrer en contact !</h1>
-            <p><br>Pour contacter notre équipe, merci de remplir le formulaire ci-dessous</p>
-            <h6>Nous aimerions recevoir de vos nouvelles:</h6>
-            <ul>
-                <li>Intéressé par notre solution en tant que client?</li>
-                <li>Intéressé à être un partenaire de mise en œuvre?</li>
-                <li>Intéressé à être un partenaire de services de plateforme?</li>
-                <li>Intéressé par les opportunités d’investissement?</li>
-                <li>Intéressé à joindre notre équipe?</li>
+              <h1 style="font-size: 30px;">Contactez-nous</h1>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>Notre solution vous intéresse en tant que client?
+                </li>
+                <li>Vous souhaitez devenir un partenaire de mise en œuvre ?</li>
+                <li>Vous souhaitez devenir un partenaire de services de plate-forme ?</li>
+                <li>Vous êtes intéressé par les possibilités d'investissement ?</li>
+                <li>Vous souhaitez rejoindre notre équipe ?</li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-7 my-4 d-flex justify-content-center">
-            <img src="assets/imgs/contact-us.png" alt="Contact-image"class="img-fluid contact-img">
+          <div class="col-sm-12 col-md-12 col-lg-7 my-4 justify-content-center">
+            <div class="row" id="contact-detail-row">
+              <div class="col-sm-12 ">
+                <div class="row">
+                  <div class="col-1 " style="padding: 0;">
+                    <i class="bi bi-globe contact-icon" ></i>
+                  </div>
+                  <div class="col" style="margin-bottom: 23px;">
+                    <h1 class="contact-infos-h" style="margin-bottom: 0px;"> Our Address</h1>
+                    <p style="font-size: 14px;">9169 W State St #1032
+                      ,Garden City ID 83714</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div class="row">
+                  <div class="col-1 justify-content-center align-self-center" style="padding: 0;">
+                    <i class="bi bi-envelope-fill contact-icon" ></i>
+                  </div>
+                  <div class="col">
+                    <h1 class="contact-infos-h" style="margin-bottom: 0px;">Our Mailbox</h1>
+                    <p style="font-size: 14px;">partners@laruche.health</p>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section mb-5">
           <div class="row after-submit" id="thanks">
                <div class="col-sm-12 col-md-12 col-lg-12">
-                      <h4 class="text-center">Merci d’avoir pris contact!</h4>
+                      <h4 class="text-center">Thank you for getting in touch! </h4>
                </div>
                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h5 class="text-center thanks_msg">Nous vous remercions de contacter La Ruche. Un membre de notre équipe vous contactera bientôt.</h5>
+                    <h5 class="text-center thanks_msg">We appreciate you contacting La Ruche. One of our Team will get back in touch with you soon.</h5>
                </div>
           </div>
-        <form method="post" autocomplete="off" name="google-sheet" id="myForm">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1 required" name="Full_name" type="text" placeholder="Nom Complet" required>
+        <div class="contact-form-container" id="form">
+          <h1 id="form-header">We'd love to hear from you</h1>
+          <p style="color: white;">Pour contacter notre équipe, veuillez remplir le formulaire ci-dessous.</p>
+          <form method="post" autocomplete="off" name="google-sheet" id="myForm">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1 required" name="Full_name" type="text" placeholder="Nom Complet" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1"  type="email" name="Email" placeholder="Compte Email" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text" name="Organisation" placeholder="Organisation">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="tel"  name="Telephone_number" placeholder="Numéro de téléphone">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text" name="Location" placeholder="Emplacement" required>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                <input class="form-control my-1" type="text"  name="Subject" placeholder="Sujet " required>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12 form-group">
+                <textarea class="form-control my-3" rows="5"  name="Message" placeholder="Message" required></textarea>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1"  type="email" name="Email" placeholder="Adresse Email" required>
+            <div class=" col-sm-12 col-md-12 col-lg-12 offset-5 form-check">
+              <input class="form-check-input" type="checkbox" name="Subscribe" id="exampleRadios1" value="Yes">
+              <label class="form-check-label" id="sub" for="exampleRadios1">
+                S'abonner à notre newsletter
+              </label>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text" name="Organisation" placeholder="Organisation">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="tel"  name="Telephone_number" placeholder="Numéro de téléphone">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text" name="Location" placeholder="Adresse" required>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 form-group">
-              <input class="form-control my-1" type="text"  name="Subject" placeholder="Sujet" required>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 form-group">
-              <textarea class="form-control my-3" rows="5"  name="Message" placeholder="Message" required></textarea>
-            </div>
-          </div>
-            <div class="form-group">
-          <button type="submit" value="Submit"class="btn mt-5 submit">Nous faire parvenir!</button>
-            </div>
-        </form>
+              <div class="form-group">
+            <button type="submit" value="Submit"class="btn mt-5 submit">Submit!</button>
+              </div>
+          </form>
+        </div>
+        
     </div>
     
 
     </div>
-    <div class="section">
+    <div class="footer-section">
       <!-- Footer -->
       <footer class="page-footer font-small py-5 dark-blue">
-        <p class="text-center contact-head">Nous Contacter</p>
+        <p class="text-center contact-head">Contactez-nous</p>
         <p class="text-center contact-text">
-           Envie de vous associer avec nous? Entrer en contact!
+          Vous voulez vous associer à nous ? Prenez contact avec nous !
         </p>
         <p class="contact-details text-center">
            <i class="ml-3 mr-2 fas fa-envelope"></i><a class="contact-details" href="mailto:partners@laruche.health">partners@laruche.health</a>
         </p>
-      </footer>
+      </footer>>
       <!-- Footer -->
       <!-- Footer -->
-     <footer class="page-footer font-small white pt-4">
-        <div class="container-fluid text-center text-md-left">
+      <footer class="page-footer font-small white pt-4">
+        <div class="container-fluid text-center text-lg-left">
           <div class="row">
-            <div class="col-md-4 mt-md-0 mt-3 social-links-div">
+            <div class="col-lg-3 col-md-12 mt-md-3 mt-3 social-links-div">
               <img alt="Full size logo footer" src="assets/imgs/full-logo.png" width="130" />
               <br>
-                 <a href="https://twitter.com/laruchehealth " target="_blank">
+                 <a href="https://twitter.com/laruchehealth" target="_blank">
                      <i class="fab fa-twitter ml-4 mr-2 social-links mt-5"></i>
                 </a>
                  <a href="https://www.facebook.com/Laruchehealth-166686058318442" target="_blank">
                      <i class="fab fa-facebook-f ml-4 mx-2 social-links mt-5"></i>
                 </a>
+                <a href="https://wa.me/2250504783682" target="_blank">
+                  <i class="fab fa-whatsapp ml-4 mr-2 social-links mt-5"></i>
+              </a>
+              <a href="https://www.instagram.com/laruchehealth/" target="_blank">
+                <i class="fab fa-instagram ml-4 mr-2 social-links mt-5"></i>
+            </a>
                 <a href="https://www.linkedin.com/company/la-ruche-health/people/" target="_blank">
                     <i class="fab fa-linkedin ml-4 mr-2 social-links mt-5"></i>
                 </a>
+                <a href="https://medium.com/@partners_57032" target="_blank">
+                  <i class="fab fa-medium ml-4 mr-2 social-links mt-5"></i>
+              </a>
+                
             </div>
             <hr class="clearfix w-100 d-md-none pb-3" />
-            <div class="col-md-2 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading"> A Propos De Nous</h5>
+            <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">À propos de nous</h5>
               <ul class="list-unstyled">
                 <li>
-                    <a class="footer-links" href="solutionsfr.html">Notre Mission</a>
+                    <a class="footer-links" href="mission.html">Notre Mission</a>
                     <br>
-                    <a class="footer-links" href="aboutfr.html">Notre Histoire</a>
+                    <a class="footer-links" href="about.html">Notre histoire</a>
                     <br>
-                    <a class="footer-links" href="aboutfr.html#Team">L’Équipe</a>
+                    <a class="footer-links" href="teams.html">L’équipe</a>
                     <br>
-                    <a class="footer-links" href="advisory-boardfr.html">Conseil consultatif</a>
+                    <a class="footer-links" href="advisory-board.html">Conseil consultatif</a>
                 </li>
               </ul>
             </div>
-             <div class="col-md-2 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading">Produits</h5>
+             <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Solutions</h5>
               <ul class="list-unstyled">
-                  <li>
-                  <a class="footer-links" href="solutionsfr.html#solution">Solutions</a>
-                  </li>
                 <li>
-                  <a class="footer-links" href="prouductsfr.html#Health Worker Portal">DME</a>
+                  <a class="footer-links" href="#healthworker_container">dossiers médicaux électroniques</a>
+                </li>
+                <li>
+                  <a class="footer-links" href="#healthhub_container">Centre de Santé</a>
+                </li>
+                <li>
+                  <a class="footer-links" href="#market_container">Wellness marketplace</a>
                 </li>
               </ul>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
-              <h5 class="text-uppercase footer-heading">Nous Contacter</h5>
+            <div class=" col-lg-2 col-md-12 mb-md-0 mb-3">
+              <h5 class="text-uppercase footer-heading">Contactez-nous</h5>
               <ul class="list-unstyled">
                   <li>
-                 <a class="footer-links mt-2" href="contact.html">Formulaire de Contact</a>
+                 <a class="footer-links mt-2" href="contact.html">Formulaire de contacte</a>
                 </li>
                 <li>
-                 <a class="footer-links mt-2" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une démo</a>
+                 <a class="footer-links mt-2" href=" https://calendly.com/rory-assandey" target="_blank">Réserver une réunion</a>
                 </li>
+                <li>
+                  <a class="footer-links mt-2" href="https://docs.google.com/forms/d/e/1FAIpQLSeBJ3RarGJQT_Jlhua5Kx9xxJh8wlZ5gEUwEUXJEPE4kXTodg/viewform?usp=sf_link" target="_blank">Accès précoce</a>
+                 </li>
                 <li>
                  <a class="footer-links mt-2"  href="mailto:partners@laruche.health">partners@laruche.health</a>
                 </li>
               </ul>
             </div>
+
+            <!-- <div class=" col-lg-12 col-md-12 ">
+              <h5 class="text-uppercase footer-heading px-2 text-center">Partners</h5>
+             </div> 
+           <div class="col-lg-2 col-md-4 offset-lg-3  col-sm-4  my-3">
+            <img src ="assets/imgs/uc.jpeg"  class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4  my-3">
+              <img src ="assets/imgs/google.png" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4 my-3">
+              <img src ="assets/imgs/addis.png"  class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4  col-sm-4 my-3">
+              <img src="assets/imgs/usaid-logo.png" class="img-fluid">
+            </div> -->
+            
+        
           </div>
         </div>
         <div class="footer-copyright text-center pt-3 pb-3">
           <hr />
-          <p class="tnc text-left pr-1">Conditions générales</p>
-          <p class="tnc text-right pl-1">© 2021 | Tous droits réservés</p>
+          <p class="tnc text-left pr-1">Terms & Conditions</p>
+          <p class="tnc text-right pl-1">©2021 | All rights reserved</p>
         </div>
       </footer>
     </div>
+    <div class="modal fade" id="sign1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 d-none d-md-block">
+                <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-12 mb-5">
+                  <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </a>
+              </div>
+                <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none ">
+                  <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+                </div>
+                <div class="col-12 text-center">
+                  <div class="col-12">
+                    <h3 class="text-center my-3">Select a Service</h3>
+                  </div>
+                 <div class="col-12">
+                  <button type="button" onclick="window.open('https://forms.gle/cMVcBXmE8VU5482g9','_blank')" class="btn  outline ready" >Register your medical facility</button>
+                 </div>
+                <div class="col-12">
+                  <button type="button" class="btn  outline ready mb-5" id="next2">Connect to a primary care team</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+    <!-- <div class="modal fade" id="sign2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 d-sm-none d-none d-md-block">
+                <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="col-12 mb-5">
+            
+                  <i class="fas fa-chevron-left mt-3 backchev" id="back"></i>
+                  <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </a>
+                  </button>
+               
+              </div>
+                <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none ">
+                  <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+                </div>
+                <div class="col-12 text-center">
+             
+                 <div class="col-12">
+                  <h3 class="text-center my-3">How would you like to use our service?</h3>
+                 </div>
+                 <div class="col-12">
+                  <button type="button" class="btn  outline " id="next2">Connect to Clinic</button>
+                 </div>
+               <div class="col-12">
+                <button type="button" class="btn  outline mb-5 not-ready"> Access Marketplace</button>
+               </div>
+               
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   -->
+    
+    <div class="modal fade" id="sign3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xxl" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 d-sm-none d-none d-md-block"  >
+                <img src="assets/imgs/young-physician-medical-robe-with-stethoscope.png" class="max" >
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-12 mb-5">
+                  <i class="fas fa-chevron-left mt-3 backchev" id="back2"></i>
+              <a type="button" class="close" id="close2" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </a>
+              </div>
+                <div class="col-12 d-flex justifty-content-center d-md-none d-lg-none d-xl-none" >
+                  
+                  <img src="assets/imgs/full-logo.png" alt="Full size logo "class="img-fluid"   />
+                </div>
+                <div class="col-12 text-center d-block">
+                 <div class="col12">
+                  <h3 class="text-center my-3">What is you preferred platform?</h3>
+                 </div>
+                 <div class="col-12">
+                  <button type="button" class="btn not-ready  outline "> Facebook Messenger</button>
+                 </div>
+                <div   class="col-12">
+                  <button type="button" class="btn  ready outline ">Whatsapp Chatbot</button>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="btn  not-ready outline mb-5"> Download App</button>
+                </div>
+              
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    
+     
+    </div>
     <!-- Footer -->
- <script src="assets/js/script.js"></script>
-    <!-- JQuery -->
+ 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -223,6 +419,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+       <!-- Footer -->
+        <script src="assets/js/nav.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/index.js"></script>
+        <!-- JQuery -->
+         <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21799627.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21799627.js"></script>
+<!-- End of HubSpot Embed Code -->
   </body>
 
 </html>
