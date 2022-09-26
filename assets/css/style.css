@@ -186,6 +186,34 @@ footer.page-footer .footer-copyright {
   text-align: center;
   vertical-align: top;
 }
+.btn-ea-small
+{
+  color: white;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  border: 0px!important;
+}
+.btn-ea-small:hover
+{
+ 
+  color: white;
+  text-decoration: underline;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  border: 0px!important;
+}
 .btn:hover {
   color:white;
   text-decoration:underline;
