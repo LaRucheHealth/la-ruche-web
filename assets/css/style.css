@@ -168,7 +168,7 @@ footer.page-footer .footer-copyright {
   color: white;
   background-color: #5cc9ca;
   font-family: "Gilroy Light";
-  font-size: 16px;
+  font-size: 13px;
   padding-left:26px;
   padding-right: 26px;
   text-align: center;
@@ -180,11 +180,39 @@ footer.page-footer .footer-copyright {
   color: white;
   background-color: #02014f;
   font-family: "Gilroy Light";
-  font-size: 16px;
+  font-size: 13px;
   padding-left: 26px;
   padding-right: 26px;
   text-align: center;
   vertical-align: top;
+}
+.btn-ea-small
+{
+  color: white;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  border: 0px!important;
+}
+.btn-ea-small:hover
+{
+ 
+  color: white;
+  text-decoration: underline;
+  background-color: #02014f;
+  font-family: "Gilroy Light";
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  border: 0px!important;
 }
 .btn:hover {
   color:white;
