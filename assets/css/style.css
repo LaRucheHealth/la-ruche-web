@@ -802,3 +802,8 @@ opacity: 1;
 .lastBelowHead{
   color: #6236FF!important;
 }
+
+.signUpBtn{
+  border-radius: 25px;
+  background-color: #6236FF;
+}
