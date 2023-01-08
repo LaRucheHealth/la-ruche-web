@@ -826,3 +826,29 @@ opacity: 1;
 .my-float{
 	margin-top:16px;
 }
+.icon-on-how-it-works-container{
+  width:25px;
+	height:25px;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-right: 8px;
+  margin-right: 2px;
+  background-color: white;
+  color: #5cc9ca;
+	border-radius:50px;
+
+}
+
+.how-it-works-img{
+  position: relative;
+  width: 165px;
+  height: 135px;
+  border-radius: 15px;
+}
+.how-it-works-text{
+  color: white;
+  position: absolute;
+  bottom: 1px;
+  /* left: 5px; */
+  line-height: normal;
+}
