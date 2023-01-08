@@ -839,10 +839,14 @@ opacity: 1;
 
 }
 
+#big-tab{
+  height: 40x !important;
+}
+
 .how-it-works-img{
   position: relative;
   width: 165px;
-  height: 135px;
+  height: 145px;
   border-radius: 15px;
 }
 .how-it-works-text{
