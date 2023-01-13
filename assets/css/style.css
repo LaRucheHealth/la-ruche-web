@@ -472,6 +472,12 @@ font-family:Roboto;
   }
 }
 
+@media only screen and (min-width: 768px){
+  #first-cards{
+    justify-content: end;
+  }
+}
+
 .green-btns:hover{
   background-color: #0B0249;
   text-decoration: none;
@@ -532,6 +538,14 @@ font-family:Roboto;
   #contact-detail-row{
     padding: 0 15px;
   }
+  /* #big_tab_landing{
+    display: none;
+  }
+  .how-it-works-img{
+    margin-bottom: 5px;
+    float: left;
+  } */
+
 }
 
 
@@ -587,9 +601,12 @@ padding:0px;
   .nav-fluid-container{
     padding: 0px 10px;
   }
+  /* #tile-container{
+    margin-right: 0px;
+  } */
 }
 
-@media (max-width: 320px){
+@media (max-width: 376px){
   
   #banner-header{
     padding: 65px 65px 0 25px;
@@ -601,6 +618,34 @@ padding:0px;
   p{
     font-size: 15px;
   }
+  
+  
+  #full-top-container{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+}
+@media (max-width: 426px){
+  #big-computer{
+    /* width: 0px;
+    height: 0px; */
+    display: none;
+  }
+  .how-it-works-img{
+    position: relative !important;
+    width: 155px !important;
+    height: 125px !important;
+    border-radius: 15px !important;
+    margin: 5px!important;
+
+  }
+  #first-cards{
+    justify-content: center;
+  }
+  #second-cards{
+    justify-content: center;
+  }
+  
 }
 
 .navbar{
